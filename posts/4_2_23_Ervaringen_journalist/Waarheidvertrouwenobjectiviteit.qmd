@@ -1,10 +1,14 @@
 ---
 title: "Waarheid, vertrouwen en objectiviteit"
+description: |
+   Margaret Sullivan is een bekende Amerikaanse journalist die onder andere werkte voor de Buffulo News, New York Times en de Washington Post. Zij heeft haar ervaringen in haar journalistieke memoires beschreven met veel aandacht voor wat er de laatste jaren is gebeurd is, hoe de journalistiek onder vuur kwam te liggen en het vertrouwen verloor. In Newsroom confidential beschrijft ze haar zorgen, de lessen die zij geleerd heeft en verdedigt ze het belang van onafhankelijke en onpartijdige journalistiek voor moderne democratie. 
+author: "Harrie Jonkman"
+date: "2023-01-31"
+categories: [Onderwijs]
+image: "Screenshot.PNG"
 ---
 
-![](Screenshot.png)
 
-> Margaret Sullivan is een bekende Amerikaanse journalist die onder andere werkte voor de Buffulo News, New York Times en de Washington Post. Zij heeft haar ervaringen in haar journalistieke memoires beschreven met veel aandacht voor wat er de laatste jaren is gebeurd is, hoe de journalistiek onder vuur kwam te liggen en het vertrouwen verloor. In Newsroom confidential beschrijft ze haar zorgen, de lessen die zij geleerd heeft en verdedigt ze het belang van onafhankelijke en onpartijdige journalistiek voor moderne democratie. 
 
 <br>
 
@@ -20,6 +24,10 @@ In het verkiezingsjaar zelf stapt Sullivan over naar de Washington Post waar ze 
 <br>
 
 Voor Sullivan zijn waarheid, vertrouwen en objectiviteit sterk met elkaar verbonden en die hebben elkaar nodig. Maar daar is weinig van over. Nu de moderne democratie in crisis verkeert wil ze die eenheid herstellen. Democratie heeft media nodig en media op hun beurt moeten de democratie verdedigen door leugens en samenzweringstheorieën te weerleggen. Gewoon je werk doen is in deze tijd niet meer genoeg voor een journalist. De democratie is in gevaar als verkiezingsuitslagen niet meer geloofd worden, deelname aan verkiezingen onder druk komen te staan en er sprake is van sterke polarisatie. In alles straalt Sullivan de onpartijdige en onafhankelijke journalist uit die plezier heeft in wat ze doet. Dat maakt dit boek zo inspirerend en belangrijk.
+
+<br>
+
+![](Screenshot.png)
 
 <br>
 

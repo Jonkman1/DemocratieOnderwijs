@@ -1,10 +1,12 @@
 ---
 title: "Mr. America"
+description: |
+   Olivier Zunz schreef een biografie over het publieke leven van Alexis de Toqueville: The Man who Understood Democracy. The Life of Alexis de Toqueville. Zijn reis door America inspireerde Tocqueville om kritisch te kijken naar de vastgeroeste aristocratische samenleving waar rechten bij geboorte worden meegegeven en op te komen voor een samenleving waarin mensen met elkaar en op eigen kracht verder komen. Toqueville liet ons in de negentiende eeuw op een andere manier tegen de samenleving en democratie aankijken. Maar hoe?
+author: "Harrie Jonkman"
+date: "2023-01-31"
+categories: [Democratie]
+image: "Screenshot.PNG"
 ---
-
-![](Screenshot.png)
-
-> Olivier Zunz schreef een biografie over het publieke leven van Alexis de Toqueville: The Man who Understood Democracy. The Life of Alexis de Toqueville. Zijn reis door America inspireerde Tocqueville om kritisch te kijken naar de vastgeroeste aristocratische samenleving waar rechten bij geboorte worden meegegeven en op te komen voor een samenleving waarin mensen met elkaar en op eigen kracht verder komen. Toqueville liet ons in de negentiende eeuw op een andere manier tegen de samenleving en democratie aankijken. Maar hoe? 
 
 <br>
 
@@ -24,6 +26,9 @@ Als onafhankelijk persoon voelde hij zich goed gepositioneerd om zich nu ook zel
 Toqueville was een man van tegenstellingen. Aan de ene kant verdedigde hij democratische waarden, aan de andere kant bleef hij trouw aan conservatieve ideeën die hij vanuit zijn aristocratische achtergrond had meegekregen; hij was bang voor algemener kiesrecht, tegelijk streed hij tegen armoede en pauperisme; hij was voor gelijkheid en verdedigde het kolonialisme. En zo zijn meer tegenstellingen te noemen. Maar hij kwam ook zijn leven lang op voor een nieuwe samenlevingsopbouw die uitging van gelijkheid en vrijheid. Dat deed hij in een tijd dat hier heel anders over werd gedacht, zeker in zijn eigen aristocratische milieu. Hij liet zien dat aan de andere kant van de oceaan dat wel lukte en dat democratie daar functioneerde. Democratie, hoe nieuw ook, zag hij als een krachtige politieke vorm die met de wil van iedere burger tot stand kon komen. Een vorm die dus met elkaar tot stand komt en die daarbij stabiele instituties nodig heeft. De revoluties van 1789 en van 1848 waren veelbelovend maar eindigden treurig en vlak na zijn dood ging het in het jonge Amerika ook mis (waar hij zelf al langer bang voor was). 
 Democratie is nooit af, komt met vallen en opstaan tot stand en aan dat proces heeft Alexis de Toqueville veel bijgedragen. Dit boek leert ons niet alleen Tocqueville zelf te begrijpen maar ook waar we zelf vandaan komen en hoe kwetsbaar democratie is, nog steeds balancerend tussen hoop en vrees.
  
+<br>
+![](Screenshot.png)
+
 <br>
 
 Zunz, O. (2022). *The Man Who Understood Democracy: The Life of Alexis de Toqueville*. Princeton&Oxford: Princeton University Press.

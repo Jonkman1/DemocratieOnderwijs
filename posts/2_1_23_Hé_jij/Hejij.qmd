@@ -1,10 +1,15 @@
 ---
 title: "Hé jij, kijk daar eens"
+description: |
+    Gert Biesta is een Nederlandse onderwijsfilosoof die in Schotland, Ierland en Nederland werkt met een herkenbare stem in onderwijsdiscussies vandaag de dag. Onderwijs is voor hem veel meer dan kennis en vaardigheden overbrengen. Het is de plaats waar leerlingen zichzelf ontdekken en zich weten te verhouden tot de sociale en natuurlijke wereld. Op school ontmoeten leerlingen zichzelf in relatie tot de wereld. Biesta stelt wereldgericht onderwijs voor, maar waar gaat het dan in zijn wereldgericht onderwijs om, wat betekent dat voor het onderwijs, waar richt Biesta zich precies op en hoe kan zijn onderwijs vorm krijgen? In zijn nieuwe boek Wereldgericht onderwijs geeft hij antwoorden op deze vragen.
+author: "Harrie Jonkman"
+date: "2023-01-31"
+categories: [Onderwijs]
+image: "Screenshot.PNG"
 ---
 
-![](Screenshot.png)
 
-> Gert Biesta is een Nederlandse onderwijsfilosoof die in Schotland, Ierland en Nederland werkt met een herkenbare stem in onderwijsdiscussies vandaag de dag. Onderwijs is voor hem veel meer dan kennis en vaardigheden overbrengen. Het is de plaats waar leerlingen zichzelf ontdekken en zich weten te verhouden tot de sociale en natuurlijke wereld. Op school ontmoeten leerlingen zichzelf in relatie tot de wereld. Biesta stelt wereldgericht onderwijs voor, maar waar gaat het dan in zijn wereldgericht onderwijs om, wat betekent dat voor het onderwijs, waar richt Biesta zich precies op en hoe kan zijn onderwijs vorm krijgen? In zijn nieuwe boek Wereldgericht onderwijs geeft hij antwoorden op deze vragen.
+
 
 <br>
 
@@ -21,6 +26,10 @@ Onderwijs komt de samenleving niet op een eenzijdige manier ten goede. Op de kap
 <br>
 
 Het boek is niet altijd even makkelijk te lezen en soms vraag je je af waar hij het precies over heeft. Hoezo is het onderwijs bijvoorbeeld de afgelopen jaren steeds kantianer geworden? Het stelt mij gerust dat het hem zelf ook veel tijd heeft gekost dat existentiële aspect te doorgronden en er een eigen taal voor te vinden. Regelmatig snap ik hem goed, dan weer ontglipt het mij, ook omdat het niet altijd mijn taal is. Maar ik heb nog even tijd, geloof ik. Hij plaatst zichzelf binnen een heel duidelijk en strak afgepast kader met z'n eigen taal(fenomenologie, existentialsme) en schuwt woorden te gebruiken die we in andere perspectieven veel tegenkomen. Een beetje benauwd krijg ik het dan soms wel dan. Op andere momenten vind ik het boek weinig concreet. Hij komt met enkele voorbeelden, die zelf meer algemeen pedagogisch dan onderwijskundig zijn. Toch vind ik het een prettig eigenwijs boek dat jou als lezer fris naar zaken doet kijken. Je weet ook dat het veel mensen in het onderwijs zal inspireren. Biesta wil het onderwijs weer tijd en ruimte geven. Uiteindelijk ben ik het zeer met hem eens dat een moderne democratische samenleving daar in ieder geval bij gebaat is.
+
+<br>
+
+![](Screenshot.png)
 
 <br>
 

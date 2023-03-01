@@ -3,7 +3,7 @@ title: "Waarheid, vertrouwen en objectiviteit"
 description: |
    Margaret Sullivan is een bekende Amerikaanse journalist die onder andere werkte voor de Buffulo News, New York Times en de Washington Post. Zij heeft haar ervaringen in haar journalistieke memoires beschreven met veel aandacht voor wat er de laatste jaren is gebeurd is, hoe de journalistiek onder vuur kwam te liggen en het vertrouwen verloor. In Newsroom confidential beschrijft ze haar zorgen, de lessen die zij geleerd heeft en verdedigt ze het belang van onafhankelijke en onpartijdige journalistiek voor moderne democratie. 
 author: "Harrie Jonkman"
-date: "2023-01-31"
+date: "2023-02-28"
 categories: [Onderwijs]
 image: "Screenshot.PNG"
 ---

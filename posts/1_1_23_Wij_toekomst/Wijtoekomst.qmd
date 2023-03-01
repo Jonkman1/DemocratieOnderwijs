@@ -27,7 +27,7 @@ Nadenken over de toekomst kun je niet baseren op observaties en kan niet anders 
 
 <br>
 
-![](Screenshot.png)
+![](Screenshot.png){width=50%}
 
 <br>
 MacAskill, W. (2022). *What we owe the future*. New York, Basic Books. 448 pagina's,

@@ -1,15 +1,21 @@
 ---
 title: "Over dit blog"
-image: profile.jpg
+image: Harrie2.jpg
 about:
   template: jolla
   links:
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
-    - icon: github
-      text: Github
-      href: https://github.com
+  - icon: linkedIn
+    text: Lindedin
+    href: "https://www.linkedin.com/in/harrie-jonkman-5224091a/"
+  - icon: website
+    text: Website
+    href: "https://www.harriejonkman.nl/"
+  - icon: gitHub
+    text: Github
+    href: "https://github.com/Jonkman1"
+  - icon: email
+    text: Email
+    href: "mailto:harriejonkman@xs4all.nl"
 ---
 
 Democratie en onderwijs

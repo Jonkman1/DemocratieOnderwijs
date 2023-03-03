@@ -1,7 +1,7 @@
 ---
 title: "Wij, de toekomst"
 description: |
-    Hoe maken we ons verantwoordelijk voor de toekomst? Uiteindelijk hebben we nog maar een korte tijd geleefd, de meeste mensen moeten nog komen en naar hen hebben we verplichtingen. Met What we owe the future rekt William MacAskill ons maatschappelijk en toekomstperspectief op, laat hij zien hoe we de koers kunnen verleggen, welke problemen we serieus moeten nemen en wat we kunnen doen. Bij het schrijven over zoveel onzekerheid kan het niet anders dat je soms uit de bocht vliegt. Maar, het is zo goed dat hij ons buiten onszelf om laat nadenken.
+    Hoe maken we ons verantwoordelijk voor de toekomst? Uiteindelijk hebben we nog maar een korte tijd geleefd, de meeste mensen moeten nog komen en naar hen hebben we verplichtingen. Met *What we owe the future* rekt William MacAskill ons maatschappelijk en toekomstperspectief op, laat hij zien hoe we de koers kunnen verleggen, welke problemen we serieus moeten nemen en wat we kunnen doen. Bij het schrijven over zoveel onzekerheid kan het niet anders dat je soms uit de bocht vliegt. Maar, het is zo goed dat hij ons buiten onszelf om laat nadenken.
 author: "Harrie Jonkman"
 date: "2023-01-15"
 categories: [Democratie]

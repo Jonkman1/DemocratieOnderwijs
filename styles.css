@@ -1,1 +1,10 @@
 /* css styles */
+
+.navbar-dark .navbar-brand {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/e/ef/Stack_Overflow_icon.svg');
+  background-size: contain;
+  padding-right: 5px !important; 
+  padding-left: 75px !important;
+  background-repeat: no-repeat;
+  color: #d9230f;
+}

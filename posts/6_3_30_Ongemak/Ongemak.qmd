@@ -1,7 +1,7 @@
 ---
 title: "Het ongemak onder de ogen zien"
 description: |
-   In haar nieuwe boek ‘Onderwijs maakt het verschil-Kansengelijkheid in het Nederlandse onderwijs’ geeft Louise Elffers antwoorden op enkele vragen die samenhangen met het vraagstuk van ongelijkheid in het onderwijs: hoe werkt kansengelijkheid, hoe kijken we tegen kansengelijkheid aan, hoe gaan we met kansengelijkheid om en wat moeten we aan kansengelijkheid doen? Een leerzame analyse, maar wel één die zich enkel binnen de muren van het onderwijs afspeelt en ons niet laat begrijpen hoe het zover heeft kunnen komen. 
+   In haar nieuwe boek *Onderwijs maakt het verschil-Kansengelijkheid in het Nederlandse onderwijs* geeft Louise Elffers antwoorden op enkele vragen die samenhangen met het vraagstuk van ongelijkheid in het onderwijs: hoe werkt kansengelijkheid, hoe kijken we tegen kansengelijkheid aan, hoe gaan we met kansengelijkheid om en wat moeten we aan kansengelijkheid doen? Een leerzame analyse, maar wel één die zich enkel binnen de muren van het onderwijs afspeelt en ons niet laat begrijpen hoe het zover heeft kunnen komen. 
 author: "Harrie Jonkman"
 date: "2023-03-28"
 categories: [Onderwijs]

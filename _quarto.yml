@@ -12,8 +12,7 @@ website:
         href: https://twitter.com
 format:
   html:
-    theme: [simplex-theme.scss]
-    css: styles.css
+    css: meds_styles.scss
 
 editor: visual
 

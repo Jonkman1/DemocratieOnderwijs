@@ -8,3 +8,17 @@
   background-repeat: no-repeat;
   color: #d9230f;
 }
+
+body {
+  background-color: #F5F2EB;
+}
+
+// import google font-size
+@import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
+
+// set font-family
+$font-family: 'Special Elite';
+
+body {
+  font-family: 'Special Elite', font-size: 22px;
+}

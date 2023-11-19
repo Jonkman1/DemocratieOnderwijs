@@ -1,6 +1,6 @@
 ---
 title: "Over dit blog"
-image: Harrie2.jpg
+image: Harriefoto.png
 about:
   template: jolla
   links:
@@ -20,13 +20,10 @@ about:
 
 Democratie en onderwijs
 
-
 > ... embody an endeavor to detect and state the ideas implied in a democratic society and to apply these ideas to the problems of the enterprise of eduction (John Dewey, Preface Democracy and Education, 1916)
 
-
-In 2023 ben ik begonnen met een recensieblog over boeken die over democratie en onderwijs gaan. Dit blog zal de komende maanden verder vorm krijgen. Daarbij neem ik mij voor om regelmatig iets te schrijven over bijzondere boeken die dan wel over democratie dan wel over onderwijs gaan. 
+In 2023 ben ik begonnen met een recensieblog over boeken die over democratie en onderwijs gaan. Dit blog zal de komende maanden verder vorm krijgen. Daarbij neem ik mij voor om regelmatig iets te schrijven over bijzondere boeken die dan wel over democratie dan wel over onderwijs gaan.
 
 <br>
 
-Het werk van John Dewey, Lawrence Cremin en Diana Ravitch hou ik daarbij in het achterhoofd. Bij alle drie gaat het om de samenhang en interactie tussen democratie en onderwijs. *John Dewey* koppelt de groei en bloei van een samenleving aan wetenschappelijke en maatschappelijke ontwikkelingen en de wijze waarop onderwijs in die ontwikkelingen serieus wordt. *Lawrence Cremin* was leerling en is sterk beïnvloed door John Dewey. Cremin had daarbij oog voor de sociaal historische wortels van het openbaar onderwijs en keek heel breed tegen onderwijs aan. Hij had ook oog voor andere instituten waardoor mensen onderwezen werden (jeugdgroepen, bibliotheken en kranten bv). *Diana Ravitch* staat weer in de voetsporen van deze twee giganten. Eerst als rustige onderwijshistorica en steeds meer als activistische verdediger van het openbare onderwijs als belangrijke voorwaarde van een goed functionerende democratie.   
-
+Het werk van John Dewey, Lawrence Cremin en Diana Ravitch hou ik daarbij in het achterhoofd. Bij alle drie gaat het om de samenhang en interactie tussen democratie en onderwijs. *John Dewey* koppelt de groei en bloei van een samenleving aan wetenschappelijke en maatschappelijke ontwikkelingen en de wijze waarop onderwijs in die ontwikkelingen serieus wordt. *Lawrence Cremin* was leerling en is sterk beïnvloed door John Dewey. Cremin had daarbij oog voor de sociaal historische wortels van het openbaar onderwijs en keek heel breed tegen onderwijs aan. Hij had ook oog voor andere instituten waardoor mensen onderwezen werden (jeugdgroepen, bibliotheken en kranten bv). *Diana Ravitch* staat weer in de voetsporen van deze twee giganten. Eerst als rustige onderwijshistorica en steeds meer als activistische verdediger van het openbare onderwijs als belangrijke voorwaarde van een goed functionerende democratie.

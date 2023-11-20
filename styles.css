@@ -1,0 +1,36 @@
+/* css styles */
+
+/*-- scss:defaults --*/
+// Base document colors
+$body-bg: #073642;
+$body-color: #eee8d5;
+$link-color: #268bd2;
+
+// Code blocks
+$code-block-bg-alpha: -.8;
+
+// Navbar
+$navbar-bg: #002b36;
+
+.navbar-dark .navbar-brand {
+  background: url('https://upload.wikimedia.org/wikipedia/commons/e/ef/Stack_Overflow_icon.svg');
+  background-size: contain;
+  padding-right: 5px !important; 
+  padding-left: 75px !important;
+  background-repeat: no-repeat;
+  color: #d9230f;
+}
+
+body {
+  background-color: #F5F2EB;
+}
+
+// import google font-size
+@import url('https://fonts.googleapis.com/css?family=Special+Elite&display=swap');
+
+// set font-family
+$font-family: 'Special Elite';
+
+body {
+  font-family: 'Special Elite', font-size: 22px;
+}

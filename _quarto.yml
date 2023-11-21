@@ -12,7 +12,7 @@ website:
         href: https://twitter.com
 format:
   html:
-    css: meds_styles.css
+    css: styles.css
 
 editor: visual
 

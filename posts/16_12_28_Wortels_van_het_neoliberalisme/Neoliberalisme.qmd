@@ -4,7 +4,7 @@ description: "Het neoliberalisme is sinds de tachtiger jaren het overheersende m
 author: "Harrie Jonkman"
 date: "2023-12-28"
 categories: [Democratie]
-image: "Screenshot1.PNG"
+image: "Screenshot.PNG"
 ---
 
 <br>
@@ -33,9 +33,9 @@ Als de twee boeken naast elkaar worden gelegd, wat valt er dan te zeggen? Gerstl
 
 <br>
 
-![](Screenshot1.png)
+![](Screenshot.png)
 
-![](Screenshot2.png)
+
 
 <br>
 

@@ -1,6 +1,6 @@
 ---
 title: "Baasloos leven"
-description: "In *Civic Bargain. How Democracy Survices* beschrijven Manville en Ober democratie als een systeem zonder baas en waarbij we het met elkaar regelen. Om te overleven zijn enkele voorwaarden noodzakelijk. Aan de hand van vier studies (Athene, Rome, Groot-Brittannië en Amerika) laten ze dat zien. Wanneer deze voorwaarden goed aanwezig zijn, zullen democratieën floreren. Wanneer ze losgelaten worden zullen democratieën onderuitgaan. In onze tijd moeten we deze lessen serieus nemen."
+description: "In *Civic Bargain. How Democracy Survives* beschrijven Manville en Ober democratie als een systeem zonder baas en waarbij we het met elkaar regelen. Om te overleven zijn enkele voorwaarden noodzakelijk. Aan de hand van vier studies (Athene, Rome, Groot-Brittannië en Amerika) laten ze dat zien. Wanneer deze voorwaarden goed aanwezig zijn, zullen democratieën floreren. Wanneer ze losgelaten worden zullen democratieën onderuitgaan. In onze tijd moeten we deze lessen serieus nemen."
 author: "Harrie Jonkman"
 date: "2024-02-20"
 categories: [Onderwijs]
@@ -43,4 +43,4 @@ In de geschiedenissen van democratieën gaat het vaak over democratische leiders
 
 <br>
 
-Manville, B. en Ober, J. (2023). *The Civic Bargain. How Democracy Survices.* Princeton: Princeton University Press. 312 pagina’s.
+Manville, B. en Ober, J. (2023). *The Civic Bargain. How Democracy Survives.* Princeton: Princeton University Press. 312 pagina’s.

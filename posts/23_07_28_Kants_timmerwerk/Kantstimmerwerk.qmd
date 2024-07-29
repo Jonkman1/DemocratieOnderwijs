@@ -1,5 +1,5 @@
 ---
-title: "Kants revoluties"
+title: "Kants timmerkwerk"
 description: "Immanuel Kant xxx"
 author: "Harrie Jonkman"
 date: "2024-07-28"

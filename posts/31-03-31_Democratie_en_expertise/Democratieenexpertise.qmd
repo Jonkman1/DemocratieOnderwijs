@@ -3,7 +3,7 @@ title: "Democratie en expertise"
 description: "Expertise is belangrijk voor een democratische samenleving. Maar tegenwoordig wordt kennis niet meer serieus genomen en iedereen lijkt zelf expert te zijn geworden. Een democratie is gebaat bij een goede relatie tussen experts, burgers en politici. Die afstand is te groot geworden en Nichols probeert in zijn nieuwe boek *The Death of Expertise. The Campaign against Estabilished. Knowledge and Why It Matters* deze afstand te verkleinen. Hij laat zien hoe het zover is gekomen en wat er nodig is om het onderlinge vertrouwen te herstellen. Het boek kwam eind 2024 uit. Of hij zelf hier ondertussen nog vertrouwen in heeft, kun je je afvragen. Hij laat wel goed zien hoe democratie en expertise elkaar nodig hebben en daarom alleen als is het waard om gelezen te worden." 
 author: "Harrie Jonkman"
 date: "2025-03-31"
-categories: [Onderwijs]
+categories: [Democratie]
 image: "Screenshot.PNG"
 ---
 

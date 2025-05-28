@@ -1,6 +1,6 @@
 ---
 title: "In gesprek over gelijkheid"
-description: "Thomas Piketty en Michael Sandel hebben zich allebei uitgebreid met het vraagstuk van gelijkheid, waarom het van belang is en hoe ermee om te gaan bezig gehouden. Ze vullen elkaar op deze onderwerpen eerder aan dan dat ze van mening verschillen. Date blijkt uit het lange gesprek dat ze met elkaar hierover voerden. Dat gesprek levert geen nieuwe inzichten op maar is inspirerend om naar te 'luisteren'. " 
+description: "Thomas Piketty en Michael Sandel hebben zich allebei uitgebreid beziggehouden met het vraagstuk van gelijkheid, waarom het van belang is en hoe ermee om te gaan. Ze vullen elkaar op deze onderwerpen eerder aan dan dat ze van mening verschillen. Dat blijkt uit het lange gesprek dat ze met elkaar hierover voerden en in boekvorm is uitgegeven. Ook al levert dat gesprek geen nieuwe inzichten op, is het wel inspirerend om naar te 'luisteren'." 
 author: "Harrie Jonkman"
 date: "2025-05-27"
 categories: [Democratie]

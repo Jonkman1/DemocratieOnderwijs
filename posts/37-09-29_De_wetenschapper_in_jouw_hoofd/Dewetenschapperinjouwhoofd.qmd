@@ -7,7 +7,7 @@ categories: [Democratie]
 image: "Screenshot.PNG"
 ---
 
-*Als je de wetenschapper in je hoofd ontmoet, ga je denken als een wetenschapper.*\
+> Als je de wetenschapper in je hoofd ontmoet, ga je denken als een wetenschapper.
 - Daniel Yon
 
 <br>

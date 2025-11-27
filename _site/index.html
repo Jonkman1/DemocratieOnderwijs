@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.39">
+<meta name="generator" content="quarto-1.8.26">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -32,15 +32,17 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="./">
 <script src="site_libs/quarto-listing/list.min.js"></script>
 <script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d1b12f2568ecbe55642fee6aa00bd082.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-f93c2b1f3f0577f377aefa4848a86a36.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -113,7 +115,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -131,7 +133,7 @@ window.Quarto = {
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -175,7 +177,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(38)</span></div><div class="category" data-category="RGVtb2NyYXRpZQ==">Democratie <span class="quarto-category-count">(20)</span></div><div class="category" data-category="T25kZXJ3aWpz">Onderwijs <span class="quarto-category-count">(18)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(39)</span></div><div class="category" data-category="RGVtb2NyYXRpZQ==">Democratie <span class="quarto-category-count">(20)</span></div><div class="category" data-category="T25kZXJ3aWpz">Onderwijs <span class="quarto-category-count">(19)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -205,27 +207,54 @@ window.Quarto = {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1761606000000" data-listing-file-modified-sort="1761903549703" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1795">
-<div class="thumbnail">
-<p><a href="./posts/38-10-28_Onderwijs_van_door_voor_mensen/Onderwijsvandoorvoormensen.html" class="no-external"></a></p><a href="./posts/38-10-28_Onderwijs_van_door_voor_mensen/Onderwijsvandoorvoormensen.html" class="no-external">
-<p><img loading="lazy" src="./posts/38-10-28_Onderwijs_van_door_voor_mensen/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/38-10-28_Onderwijs_van_door_voor_mensen/Onderwijsvandoorvoormensen.html" class="no-external"></a></p>
+<div class="quarto-post image-right" data-index="0" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1764284400000" data-listing-file-modified-sort="1764237742386" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1753">
+<div class="thumbnail"><a href="./posts/39-11-27_Verdedigster_van_het_publieke_onderwijs/Verdedigstervanhetpubliekeonderwijs.html" class="no-external">
+
+<img loading="lazy" src="./posts/39-11-27_Verdedigster_van_het_publieke_onderwijs/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/39-11-27_Verdedigster_van_het_publieke_onderwijs/Verdedigstervanhetpubliekeonderwijs.html" class="no-external">Verdedigster van het publieke onderwijs</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">Onderwijs</div>
+
 </div>
+<div class="delink listing-description"><a href="./posts/39-11-27_Verdedigster_van_het_publieke_onderwijs/Verdedigstervanhetpubliekeonderwijs.html" class="no-external">
+*Ik vroeg me af waarom niet alle mensen in onze rijke samenleving, ongeacht hun rijkdom, klasse, ras of persoonlijke eigenschappen, een fatsoenlijk leven zouden moeten…<br>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/39-11-27_Verdedigster_van_het_publieke_onderwijs/Verdedigstervanhetpubliekeonderwijs.html" class="no-external">
+<div class="listing-date">
+Nov 28, 2025
+</div>
+<div class="listing-author">
+Harrie Jonkman
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1761606000000" data-listing-file-modified-sort="1761903549703" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1795">
+<div class="thumbnail"><a href="./posts/38-10-28_Onderwijs_van_door_voor_mensen/Onderwijsvandoorvoormensen.html" class="no-external">
+
+<img loading="lazy" src="./posts/38-10-28_Onderwijs_van_door_voor_mensen/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/38-10-28_Onderwijs_van_door_voor_mensen/Onderwijsvandoorvoormensen.html" class="no-external">Onderwijs van de mensen, door de mensen, voor de mensen</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/38-10-28_Onderwijs_van_door_voor_mensen/Onderwijsvandoorvoormensen.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">
-Onderwijs
+
+<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">Onderwijs</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/38-10-28_Onderwijs_van_door_voor_mensen/Onderwijsvandoorvoormensen.html" class="no-external"><em>The Education Wars. A Citizen’s Guide and Defense Manual</em> van Jennifer Berkshire en Jack Schneider gaat over de onderwijsstrijd die er op dit moment in Amerika wordt gestreden. De strijd gaat over de relatie tussen onderwijs en religie, over de rechten van ouders en over het belang van publiek onderwijs. Het is belangrijk om te begrijpen waar die onderwijsstrijd over gaat en te weten hoe we ons daarin hebben op te stellen. Berkshire en Schneider verdedigen in dit boek het publieke onderwijs. Ook al speelt dit allemaal niet zo in ons eigen land, elementen ervan komen wel omhoog in de discussie hier. Voor ons is er veel te leren van deze geschiedenis, in ieder geval dat onderwijs een publiek goed en een essentieel onderdeel is van onze democratie.</a>
-</div>
+<div class="delink listing-description"><a href="./posts/38-10-28_Onderwijs_van_door_voor_mensen/Onderwijsvandoorvoormensen.html" class="no-external">
+<p><em>The Education Wars. A Citizen’s Guide and Defense Manual</em> van Jennifer Berkshire en Jack Schneider gaat over de onderwijsstrijd die er op dit moment in Amerika wordt gestreden. De strijd gaat over de relatie tussen onderwijs en religie, over de rechten van ouders en over het belang van publiek onderwijs. Het is belangrijk om te begrijpen waar die onderwijsstrijd over gaat en te weten hoe we ons daarin hebben op te stellen. Berkshire en Schneider verdedigen in dit boek het publieke onderwijs. Ook al speelt dit allemaal niet zo in ons eigen land, elementen ervan komen wel omhoog in de discussie hier. Voor ons is er veel te leren van deze geschiedenis, in ieder geval dat onderwijs een publiek goed en een essentieel onderdeel is van onze democratie.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/38-10-28_Onderwijs_van_door_voor_mensen/Onderwijsvandoorvoormensen.html" class="no-external">
@@ -238,27 +267,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1759096800000" data-listing-file-modified-sort="1761641294717" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1577">
-<div class="thumbnail">
-<p><a href="./posts/37-09-29_De_wetenschapper_in_jouw_hoofd/Dewetenschapperinjouwhoofd.html" class="no-external"></a></p><a href="./posts/37-09-29_De_wetenschapper_in_jouw_hoofd/Dewetenschapperinjouwhoofd.html" class="no-external">
-<p><img loading="lazy" src="./posts/37-09-29_De_wetenschapper_in_jouw_hoofd/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/37-09-29_De_wetenschapper_in_jouw_hoofd/Dewetenschapperinjouwhoofd.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="2" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1759096800000" data-listing-file-modified-sort="1761641294717" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1577">
+<div class="thumbnail"><a href="./posts/37-09-29_De_wetenschapper_in_jouw_hoofd/Dewetenschapperinjouwhoofd.html" class="no-external">
+
+<img loading="lazy" src="./posts/37-09-29_De_wetenschapper_in_jouw_hoofd/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/37-09-29_De_wetenschapper_in_jouw_hoofd/Dewetenschapperinjouwhoofd.html" class="no-external">De wetenschapper in jouw hoofd</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/37-09-29_De_wetenschapper_in_jouw_hoofd/Dewetenschapperinjouwhoofd.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">
-Democratie
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">Democratie</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/37-09-29_De_wetenschapper_in_jouw_hoofd/Dewetenschapperinjouwhoofd.html" class="no-external"><em>In het nieuwe boek van Daniel Yon (</em>A Trick of the Mind. How the Brain Invents Your Reality*) laat hij zien hoe onze hersenen werken en hoe we die moeten begrijpen. De hersenen ziet Yon als een wetenschapper die daar in ons hoofd zit opgesloten. Deze hersenen zetten datgene wat hij in de werkelijkheid tegenkomt af tegen dat wat hij ervan verwacht. Zo gaan ze als een wetenschapper te werk in de wereld van de materie, in de mentale wereld en de wereld van ideeën. Een Bayesiaanse wetenschapper wel te verstaan, die naar de balans tussen beide elementen zoekt.</a>
-</div>
+<div class="delink listing-description"><a href="./posts/37-09-29_De_wetenschapper_in_jouw_hoofd/Dewetenschapperinjouwhoofd.html" class="no-external">
+<p><em>In het nieuwe boek van Daniel Yon (</em>A Trick of the Mind. How the Brain Invents Your Reality*) laat hij zien hoe onze hersenen werken en hoe we die moeten begrijpen. De hersenen ziet Yon als een wetenschapper die daar in ons hoofd zit opgesloten. Deze hersenen zetten datgene wat hij in de werkelijkheid tegenkomt af tegen dat wat hij ervan verwacht. Zo gaan ze als een wetenschapper te werk in de wereld van de materie, in de mentale wereld en de wereld van ideeën. Een Bayesiaanse wetenschapper wel te verstaan, die naar de balans tussen beide elementen zoekt.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/37-09-29_De_wetenschapper_in_jouw_hoofd/Dewetenschapperinjouwhoofd.html" class="no-external">
@@ -271,27 +297,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1756159200000" data-listing-file-modified-sort="1756456226258" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1604">
-<div class="thumbnail">
-<p><a href="./posts/36-08-30_Op_de_voorste_rij/Opdevoorsterij.html" class="no-external"></a></p><a href="./posts/36-08-30_Op_de_voorste_rij/Opdevoorsterij.html" class="no-external">
-<p><img loading="lazy" src="./posts/36-08-30_Op_de_voorste_rij/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/36-08-30_Op_de_voorste_rij/Opdevoorsterij.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="3" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1756159200000" data-listing-file-modified-sort="1756456226258" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1604">
+<div class="thumbnail"><a href="./posts/36-08-30_Op_de_voorste_rij/Opdevoorsterij.html" class="no-external">
+
+<img loading="lazy" src="./posts/36-08-30_Op_de_voorste_rij/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/36-08-30_Op_de_voorste_rij/Opdevoorsterij.html" class="no-external">Op de voorste rij</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/36-08-30_Op_de_voorste_rij/Opdevoorsterij.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">
-Onderwijs
+
+<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">Onderwijs</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/36-08-30_Op_de_voorste_rij/Opdevoorsterij.html" class="no-external"><em>Money, Lies, and God. Inside the movement to destroy American Democracy</em>, het nieuwe boek van Katherine Stewart, is het verhaal van de anti-democratische beweging in Amerika. In het boek laat Stewart zien welke personen en organisaties hierbij betrokken zijn en welke activiteiten worden ondernomen om de democratie onderuit te halen. Geld en geloof, leugens en misinformatie spelen daarin mee en het onderwijs is daarbij belangrijk. Stewart beschrijft niet alleen deze anti-democratische beweging uitvoerig, ze laat ook zien wat we hiervan kunnen leren en wat we hebben te doen om de democratie te verdedigen.</a>
-</div>
+<div class="delink listing-description"><a href="./posts/36-08-30_Op_de_voorste_rij/Opdevoorsterij.html" class="no-external">
+<p><em>Money, Lies, and God. Inside the movement to destroy American Democracy</em>, het nieuwe boek van Katherine Stewart, is het verhaal van de anti-democratische beweging in Amerika. In het boek laat Stewart zien welke personen en organisaties hierbij betrokken zijn en welke activiteiten worden ondernomen om de democratie onderuit te halen. Geld en geloof, leugens en misinformatie spelen daarin mee en het onderwijs is daarbij belangrijk. Stewart beschrijft niet alleen deze anti-democratische beweging uitvoerig, ze laat ook zien wat we hiervan kunnen leren en wat we hebben te doen om de democratie te verdedigen.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/36-08-30_Op_de_voorste_rij/Opdevoorsterij.html" class="no-external">
@@ -304,27 +327,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1753394400000" data-listing-file-modified-sort="1756132731805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1774">
-<div class="thumbnail">
-<p><a href="./posts/35-07-25_Nederige_filosofie/Nederigefilosofie.html" class="no-external"></a></p><a href="./posts/35-07-25_Nederige_filosofie/Nederigefilosofie.html" class="no-external">
-<p><img loading="lazy" src="./posts/35-07-25_Nederige_filosofie/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/35-07-25_Nederige_filosofie/Nederigefilosofie.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="4" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1753394400000" data-listing-file-modified-sort="1756132731805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1774">
+<div class="thumbnail"><a href="./posts/35-07-25_Nederige_filosofie/Nederigefilosofie.html" class="no-external">
+
+<img loading="lazy" src="./posts/35-07-25_Nederige_filosofie/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/35-07-25_Nederige_filosofie/Nederigefilosofie.html" class="no-external">Een nederige filosofie</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/35-07-25_Nederige_filosofie/Nederigefilosofie.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">
-Democratie
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">Democratie</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/35-07-25_Nederige_filosofie/Nederigefilosofie.html" class="no-external">Het is dit jaar honderd jaar geleden dat John Dewey’s <em>Experience and Nature</em> uitkwam, volgens Mark Johnson en Jay Schulkin een van de belangrijkste filosofische boeken ooit. Zij trekken zijn theorie van naturalisme in <em>Mind in Nature. John Dewey, Cognitive Science, and a Naturalistic Philosophy for Living</em> naar deze tijd toe en willen het boek betekenisvol maken voor de 21ste eeuw. Waarom het het betekenisvol is voor onze tijd blijft onduidelijk. Maar <em>Mind in Nature</em> is een hele mooie toelichting op <em>Experience and Nature</em> en heel geschikt om juist dit jaar te lezen.</a>
-</div>
+<div class="delink listing-description"><a href="./posts/35-07-25_Nederige_filosofie/Nederigefilosofie.html" class="no-external">
+<p>Het is dit jaar honderd jaar geleden dat John Dewey’s <em>Experience and Nature</em> uitkwam, volgens Mark Johnson en Jay Schulkin een van de belangrijkste filosofische boeken ooit. Zij trekken zijn theorie van naturalisme in <em>Mind in Nature. John Dewey, Cognitive Science, and a Naturalistic Philosophy for Living</em> naar deze tijd toe en willen het boek betekenisvol maken voor de 21ste eeuw. Waarom het het betekenisvol is voor onze tijd blijft onduidelijk. Maar <em>Mind in Nature</em> is een hele mooie toelichting op <em>Experience and Nature</em> en heel geschikt om juist dit jaar te lezen.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/35-07-25_Nederige_filosofie/Nederigefilosofie.html" class="no-external">
@@ -337,27 +357,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1750975200000" data-listing-file-modified-sort="1751122920051" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1771">
-<div class="thumbnail">
-<p><a href="./posts/34-06-27_Burgers_opvoeden/Burgersopvoeden.html" class="no-external"></a></p><a href="./posts/34-06-27_Burgers_opvoeden/Burgersopvoeden.html" class="no-external">
-<p><img loading="lazy" src="./posts/34-06-27_Burgers_opvoeden/Screenshot1.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/34-06-27_Burgers_opvoeden/Burgersopvoeden.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="5" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1750975200000" data-listing-file-modified-sort="1751122920051" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1771">
+<div class="thumbnail"><a href="./posts/34-06-27_Burgers_opvoeden/Burgersopvoeden.html" class="no-external">
+
+<img loading="lazy" src="./posts/34-06-27_Burgers_opvoeden/Screenshot1.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/34-06-27_Burgers_opvoeden/Burgersopvoeden.html" class="no-external">Burgers opvoeden</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/34-06-27_Burgers_opvoeden/Burgersopvoeden.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">
-Onderwijs
+
+<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">Onderwijs</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/34-06-27_Burgers_opvoeden/Burgersopvoeden.html" class="no-external">Jongeren voorbereiden op en actief betrekken bij democratie vraagt maatschappelijke aandacht. Ouders kunnen daar een goede rol bij vervullen, schrijft Lindsey Cormack in haar nieuwe boek <em>How to Raise a Citizen. (And why it’s up to you to do it)</em>. Ze laat zien hoe ouders dat kunnen doen en welke kennis daarbij nodig is. Het boek laat zien hoe we democratie van binnenuit kunnen verdedigen, een onderwerp waar tegenwoordig niet zo veel over wordt nagedacht. </a>
-</div>
+<div class="delink listing-description"><a href="./posts/34-06-27_Burgers_opvoeden/Burgersopvoeden.html" class="no-external">
+<p>Jongeren voorbereiden op en actief betrekken bij democratie vraagt maatschappelijke aandacht. Ouders kunnen daar een goede rol bij vervullen, schrijft Lindsey Cormack in haar nieuwe boek <em>How to Raise a Citizen. (And why it’s up to you to do it)</em>. Ze laat zien hoe ouders dat kunnen doen en welke kennis daarbij nodig is. Het boek laat zien hoe we democratie van binnenuit kunnen verdedigen, een onderwerp waar tegenwoordig niet zo veel over wordt nagedacht.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/34-06-27_Burgers_opvoeden/Burgersopvoeden.html" class="no-external">
@@ -370,27 +387,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1748296800000" data-listing-file-modified-sort="1750844272510" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1630">
-<div class="thumbnail">
-<p><a href="./posts/33-05-27_In_gesprek_over_gelijkheid/Ingesprekovergelijkheid.html" class="no-external"></a></p><a href="./posts/33-05-27_In_gesprek_over_gelijkheid/Ingesprekovergelijkheid.html" class="no-external">
-<p><img loading="lazy" src="./posts/33-05-27_In_gesprek_over_gelijkheid/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/33-05-27_In_gesprek_over_gelijkheid/Ingesprekovergelijkheid.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="6" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1748296800000" data-listing-file-modified-sort="1750844272510" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1630">
+<div class="thumbnail"><a href="./posts/33-05-27_In_gesprek_over_gelijkheid/Ingesprekovergelijkheid.html" class="no-external">
+
+<img loading="lazy" src="./posts/33-05-27_In_gesprek_over_gelijkheid/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/33-05-27_In_gesprek_over_gelijkheid/Ingesprekovergelijkheid.html" class="no-external">In gesprek over gelijkheid</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/33-05-27_In_gesprek_over_gelijkheid/Ingesprekovergelijkheid.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">
-Democratie
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">Democratie</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/33-05-27_In_gesprek_over_gelijkheid/Ingesprekovergelijkheid.html" class="no-external">Thomas Piketty en Michael Sandel hebben zich allebei uitgebreid beziggehouden met het vraagstuk van gelijkheid, waarom het van belang is en hoe ermee om te gaan. Ze vullen elkaar op deze onderwerpen eerder aan dan dat ze van mening verschillen. Dat blijkt uit het lange gesprek dat ze met elkaar hierover voerden en in boekvorm is uitgegeven. Ook al levert dat gesprek geen nieuwe inzichten op, is het wel inspirerend om naar te ‘luisteren’.</a>
-</div>
+<div class="delink listing-description"><a href="./posts/33-05-27_In_gesprek_over_gelijkheid/Ingesprekovergelijkheid.html" class="no-external">
+<p>Thomas Piketty en Michael Sandel hebben zich allebei uitgebreid beziggehouden met het vraagstuk van gelijkheid, waarom het van belang is en hoe ermee om te gaan. Ze vullen elkaar op deze onderwerpen eerder aan dan dat ze van mening verschillen. Dat blijkt uit het lange gesprek dat ze met elkaar hierover voerden en in boekvorm is uitgegeven. Ook al levert dat gesprek geen nieuwe inzichten op, is het wel inspirerend om naar te ‘luisteren’.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/33-05-27_In_gesprek_over_gelijkheid/Ingesprekovergelijkheid.html" class="no-external">
@@ -403,27 +417,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1745964000000" data-listing-file-modified-sort="1748349816841" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1780">
-<div class="thumbnail">
-<p><a href="./posts/32-04-30_Kennis_is_macht/Kennisismacht.html" class="no-external"></a></p><a href="./posts/32-04-30_Kennis_is_macht/Kennisismacht.html" class="no-external">
-<p><img loading="lazy" src="./posts/32-04-30_Kennis_is_macht/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/32-04-30_Kennis_is_macht/Kennisismacht.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="7" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1745964000000" data-listing-file-modified-sort="1748349816841" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1780">
+<div class="thumbnail"><a href="./posts/32-04-30_Kennis_is_macht/Kennisismacht.html" class="no-external">
+
+<img loading="lazy" src="./posts/32-04-30_Kennis_is_macht/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/32-04-30_Kennis_is_macht/Kennisismacht.html" class="no-external">Kennis is macht</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/32-04-30_Kennis_is_macht/Kennisismacht.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">
-Onderwijs
+
+<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">Onderwijs</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/32-04-30_Kennis_is_macht/Kennisismacht.html" class="no-external"><em>Dangerour Learning. The South’s Long War on Black Literacy</em> is de geschiedenis van zwarte geletterdheid in het Zuiden van Amerika. Het is de lange geschiedenis van de strijd rond leren en onderwijs en rond vrijheid en democratie. Het gaat over de eerste rebellie, over hoe het Zuiden z’n eigen weg koos en hoe de blanke en zwarte bevolking steeds weer tegenover staan. Dat wat er in Amerika in het onderwijs op dit moment gebeurt komt niet uit de lucht vallen. Dit boek leert je veel daarover.</a>
-</div>
+<div class="delink listing-description"><a href="./posts/32-04-30_Kennis_is_macht/Kennisismacht.html" class="no-external">
+<p><em>Dangerour Learning. The South’s Long War on Black Literacy</em> is de geschiedenis van zwarte geletterdheid in het Zuiden van Amerika. Het is de lange geschiedenis van de strijd rond leren en onderwijs en rond vrijheid en democratie. Het gaat over de eerste rebellie, over hoe het Zuiden z’n eigen weg koos en hoe de blanke en zwarte bevolking steeds weer tegenover staan. Dat wat er in Amerika in het onderwijs op dit moment gebeurt komt niet uit de lucht vallen. Dit boek leert je veel daarover.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/32-04-30_Kennis_is_macht/Kennisismacht.html" class="no-external">
@@ -436,27 +447,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1743372000000" data-listing-file-modified-sort="1748349816840" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1965">
-<div class="thumbnail">
-<p><a href="./posts/31-03-31_Democratie_en_expertise/Democratieenexpertise.html" class="no-external"></a></p><a href="./posts/31-03-31_Democratie_en_expertise/Democratieenexpertise.html" class="no-external">
-<p><img loading="lazy" src="./posts/31-03-31_Democratie_en_expertise/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/31-03-31_Democratie_en_expertise/Democratieenexpertise.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="8" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1743372000000" data-listing-file-modified-sort="1748349816840" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1965">
+<div class="thumbnail"><a href="./posts/31-03-31_Democratie_en_expertise/Democratieenexpertise.html" class="no-external">
+
+<img loading="lazy" src="./posts/31-03-31_Democratie_en_expertise/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/31-03-31_Democratie_en_expertise/Democratieenexpertise.html" class="no-external">Democratie en expertise</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/31-03-31_Democratie_en_expertise/Democratieenexpertise.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">
-Democratie
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">Democratie</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/31-03-31_Democratie_en_expertise/Democratieenexpertise.html" class="no-external">Expertise is belangrijk voor een democratische samenleving. Maar tegenwoordig wordt kennis niet meer serieus genomen en iedereen lijkt zelf expert te zijn geworden, schrjft Nichols in zijn boek <em>The Death of Expertise. The Campaign against Estabilished. Knowledge and Why It Matters</em>. Een democratie is gebaat bij een goede relatie tussen experts, burgers en politici. Die afstand is te groot geworden en Nichols probeert met zijn nieuwe boek deze afstand te verkleinen. Hij laat zien hoe het zover is gekomen en wat er nodig is om het onderlinge vertrouwen te herstellen. Het boek kwam eind 2024 uit. Of hij zelf hier ondertussen nog vertrouwen in heeft, kun je je afvragen. Hij laat wel goed zien hoe democratie en expertise elkaar nodig hebben en daarom alleen als is het waard om gelezen te worden.</a>
-</div>
+<div class="delink listing-description"><a href="./posts/31-03-31_Democratie_en_expertise/Democratieenexpertise.html" class="no-external">
+<p>Expertise is belangrijk voor een democratische samenleving. Maar tegenwoordig wordt kennis niet meer serieus genomen en iedereen lijkt zelf expert te zijn geworden, schrjft Nichols in zijn boek <em>The Death of Expertise. The Campaign against Estabilished. Knowledge and Why It Matters</em>. Een democratie is gebaat bij een goede relatie tussen experts, burgers en politici. Die afstand is te groot geworden en Nichols probeert met zijn nieuwe boek deze afstand te verkleinen. Hij laat zien hoe het zover is gekomen en wat er nodig is om het onderlinge vertrouwen te herstellen. Het boek kwam eind 2024 uit. Of hij zelf hier ondertussen nog vertrouwen in heeft, kun je je afvragen. Hij laat wel goed zien hoe democratie en expertise elkaar nodig hebben en daarom alleen als is het waard om gelezen te worden.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/31-03-31_Democratie_en_expertise/Democratieenexpertise.html" class="no-external">
@@ -469,27 +477,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1740524400000" data-listing-file-modified-sort="1748349816840" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1667">
-<div class="thumbnail">
-<p><a href="./posts/30-02-26_Privitarisering_van_het_onderwijs/Privitariseringvanhetonderwijs.html" class="no-external"></a></p><a href="./posts/30-02-26_Privitarisering_van_het_onderwijs/Privitariseringvanhetonderwijs.html" class="no-external">
-<p><img loading="lazy" src="./posts/30-02-26_Privitarisering_van_het_onderwijs/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/30-02-26_Privitarisering_van_het_onderwijs/Privitariseringvanhetonderwijs.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="9" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1740524400000" data-listing-file-modified-sort="1748349816840" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1667">
+<div class="thumbnail"><a href="./posts/30-02-26_Privitarisering_van_het_onderwijs/Privitariseringvanhetonderwijs.html" class="no-external">
+
+<img loading="lazy" src="./posts/30-02-26_Privitarisering_van_het_onderwijs/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/30-02-26_Privitarisering_van_het_onderwijs/Privitariseringvanhetonderwijs.html" class="no-external">De privatisering van het onderwijs</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/30-02-26_Privitarisering_van_het_onderwijs/Privitariseringvanhetonderwijs.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">
-Onderwijs
+
+<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">Onderwijs</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/30-02-26_Privitarisering_van_het_onderwijs/Privitariseringvanhetonderwijs.html" class="no-external">Josh Cowen schreef een boek over schoolvouchers en wat daarmee te maken heeft: <em>The Privateers: How Billionaires created a culture of war and sold school vouchers</em>. Cowen beschrijft de geschiedenis ervan die teruggaat tot in de vijftiger jaren van de vorige eeuw. De onderzoekseffecten ervan zijn bedroefend en de gevolgen voor de samenleving groot. Cowens analyse en inzichten zijn van een hoog niveau, zijn alternief valt wat tegen.</a>
-</div>
+<div class="delink listing-description"><a href="./posts/30-02-26_Privitarisering_van_het_onderwijs/Privitariseringvanhetonderwijs.html" class="no-external">
+<p>Josh Cowen schreef een boek over schoolvouchers en wat daarmee te maken heeft: <em>The Privateers: How Billionaires created a culture of war and sold school vouchers</em>. Cowen beschrijft de geschiedenis ervan die teruggaat tot in de vijftiger jaren van de vorige eeuw. De onderzoekseffecten ervan zijn bedroefend en de gevolgen voor de samenleving groot. Cowens analyse en inzichten zijn van een hoog niveau, zijn alternief valt wat tegen.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/30-02-26_Privitarisering_van_het_onderwijs/Privitariseringvanhetonderwijs.html" class="no-external">
@@ -502,27 +507,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1738191600000" data-listing-file-modified-sort="1748349816839" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1685">
-<div class="thumbnail">
-<p><a href="./posts/29-01-30_Vrijheid_als_het_leven_zelf/Vrijheidalshetlevenzelf.html" class="no-external"></a></p><a href="./posts/29-01-30_Vrijheid_als_het_leven_zelf/Vrijheidalshetlevenzelf.html" class="no-external">
-<p><img loading="lazy" src="./posts/29-01-30_Vrijheid_als_het_leven_zelf/Screenshot1.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/29-01-30_Vrijheid_als_het_leven_zelf/Vrijheidalshetlevenzelf.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="10" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1738191600000" data-listing-file-modified-sort="1748349816839" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1685">
+<div class="thumbnail"><a href="./posts/29-01-30_Vrijheid_als_het_leven_zelf/Vrijheidalshetlevenzelf.html" class="no-external">
+
+<img loading="lazy" src="./posts/29-01-30_Vrijheid_als_het_leven_zelf/Screenshot1.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/29-01-30_Vrijheid_als_het_leven_zelf/Vrijheidalshetlevenzelf.html" class="no-external">Vrijheid als het leven zelf</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/29-01-30_Vrijheid_als_het_leven_zelf/Vrijheidalshetlevenzelf.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">
-Democratie
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">Democratie</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/29-01-30_Vrijheid_als_het_leven_zelf/Vrijheidalshetlevenzelf.html" class="no-external">Wat betekent het om vrij te zijn en wat komt daarbij kijken? In zijn nieuwe boek <em>Over Vrijheid</em> geeft Timothy Schnyder antwoorden op deze vragen. Bij vrijheid gaat het er niet om wat er niet is, maar wat er wel is. Het is belangrijk dat structuren, instituten en perspectieven mensen laten groeien en dat kan als daarin soevereiniteit, onvoorspelbaarheid, mobiliteit, feitelijkheid en solidariteit serieus worden genomen. Schnyder is duidelijk in wat hem voor ogen staat en doet enkele concrete voorstellen daarvoor. Over hoe de democratische ruimte weer met deze ideeën is te bezetten, laat hij zich niet uit.</a>
-</div>
+<div class="delink listing-description"><a href="./posts/29-01-30_Vrijheid_als_het_leven_zelf/Vrijheidalshetlevenzelf.html" class="no-external">
+<p>Wat betekent het om vrij te zijn en wat komt daarbij kijken? In zijn nieuwe boek <em>Over Vrijheid</em> geeft Timothy Schnyder antwoorden op deze vragen. Bij vrijheid gaat het er niet om wat er niet is, maar wat er wel is. Het is belangrijk dat structuren, instituten en perspectieven mensen laten groeien en dat kan als daarin soevereiniteit, onvoorspelbaarheid, mobiliteit, feitelijkheid en solidariteit serieus worden genomen. Schnyder is duidelijk in wat hem voor ogen staat en doet enkele concrete voorstellen daarvoor. Over hoe de democratische ruimte weer met deze ideeën is te bezetten, laat hij zich niet uit.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/29-01-30_Vrijheid_als_het_leven_zelf/Vrijheidalshetlevenzelf.html" class="no-external">
@@ -535,27 +537,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="10" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1735513200000" data-listing-file-modified-sort="1748349816839" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1755">
-<div class="thumbnail">
-<p><a href="./posts/28-12-30_De_evolutietheorie_in_het_beklaagdenbankje/Deevolutietheorieinhetbeklaagdenbankje.html" class="no-external"></a></p><a href="./posts/28-12-30_De_evolutietheorie_in_het_beklaagdenbankje/Deevolutietheorieinhetbeklaagdenbankje.html" class="no-external">
-<p><img loading="lazy" src="./posts/28-12-30_De_evolutietheorie_in_het_beklaagdenbankje/Screenshot1.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/28-12-30_De_evolutietheorie_in_het_beklaagdenbankje/Deevolutietheorieinhetbeklaagdenbankje.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="11" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1735513200000" data-listing-file-modified-sort="1748349816839" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1755">
+<div class="thumbnail"><a href="./posts/28-12-30_De_evolutietheorie_in_het_beklaagdenbankje/Deevolutietheorieinhetbeklaagdenbankje.html" class="no-external">
+
+<img loading="lazy" src="./posts/28-12-30_De_evolutietheorie_in_het_beklaagdenbankje/Screenshot1.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/28-12-30_De_evolutietheorie_in_het_beklaagdenbankje/Deevolutietheorieinhetbeklaagdenbankje.html" class="no-external">De evolutietheorie in het beklaagdenbankje</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/28-12-30_De_evolutietheorie_in_het_beklaagdenbankje/Deevolutietheorieinhetbeklaagdenbankje.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">
-Onderwijs
+
+<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">Onderwijs</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/28-12-30_De_evolutietheorie_in_het_beklaagdenbankje/Deevolutietheorieinhetbeklaagdenbankje.html" class="no-external">In de zomer van 1925 vindt er in Dayton-Tennessee het bekendste Amerikaanse proces van de twintigste eeuw plaats, het ‘apenproces’ waar de evolutietheorie van Darwin in het beklaagdenbankje staat. De evolutietheorie onderwijzen op scholen en colleges mag niet meer. Religie en wetenschap staan recht tegenover elkaar en de strijd houdt Amerika in zijn greep. Het boek <em>Keeping the Faith. God, Democracy, and the Trial That Reveted a Nation</em> van Branda Wineapple laat zien hoe verschillend wordt gedacht over cultuur, ethiek, religie en de rol van de staat. Wineapple trekt geen lijnen naar het heden en de toekomst en laat dat helemaal aan de lezer over. Met deze inzichten is dat goed te doen.</a>
-</div>
+<div class="delink listing-description"><a href="./posts/28-12-30_De_evolutietheorie_in_het_beklaagdenbankje/Deevolutietheorieinhetbeklaagdenbankje.html" class="no-external">
+<p>In de zomer van 1925 vindt er in Dayton-Tennessee het bekendste Amerikaanse proces van de twintigste eeuw plaats, het ‘apenproces’ waar de evolutietheorie van Darwin in het beklaagdenbankje staat. De evolutietheorie onderwijzen op scholen en colleges mag niet meer. Religie en wetenschap staan recht tegenover elkaar en de strijd houdt Amerika in zijn greep. Het boek <em>Keeping the Faith. God, Democracy, and the Trial That Reveted a Nation</em> van Branda Wineapple laat zien hoe verschillend wordt gedacht over cultuur, ethiek, religie en de rol van de staat. Wineapple trekt geen lijnen naar het heden en de toekomst en laat dat helemaal aan de lezer over. Met deze inzichten is dat goed te doen.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/28-12-30_De_evolutietheorie_in_het_beklaagdenbankje/Deevolutietheorieinhetbeklaagdenbankje.html" class="no-external">
@@ -568,27 +567,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="11" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1732489200000" data-listing-file-modified-sort="1748349816838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1472">
-<div class="thumbnail">
-<p><a href="./posts/27-11-25_Een_paar_richtlijnen_voor_de_toekomst/Richtlijnenvoordetoekomst.html" class="no-external"></a></p><a href="./posts/27-11-25_Een_paar_richtlijnen_voor_de_toekomst/Richtlijnenvoordetoekomst.html" class="no-external">
-<p><img loading="lazy" src="./posts/27-11-25_Een_paar_richtlijnen_voor_de_toekomst/Screenshot1.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/27-11-25_Een_paar_richtlijnen_voor_de_toekomst/Richtlijnenvoordetoekomst.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="12" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1732489200000" data-listing-file-modified-sort="1748349816838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1472">
+<div class="thumbnail"><a href="./posts/27-11-25_Een_paar_richtlijnen_voor_de_toekomst/Richtlijnenvoordetoekomst.html" class="no-external">
+
+<img loading="lazy" src="./posts/27-11-25_Een_paar_richtlijnen_voor_de_toekomst/Screenshot1.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/27-11-25_Een_paar_richtlijnen_voor_de_toekomst/Richtlijnenvoordetoekomst.html" class="no-external">Een paar richtlijnen voor de toekomst</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/27-11-25_Een_paar_richtlijnen_voor_de_toekomst/Richtlijnenvoordetoekomst.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">
-Democratie
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">Democratie</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/27-11-25_Een_paar_richtlijnen_voor_de_toekomst/Richtlijnenvoordetoekomst.html" class="no-external">In <em>De kracht van gras</em> bespreekt de filosoof Jan-Hendrik Bakker de dichtbundel <em>Grasbladen</em> van 19e eeuwse Amerikaanse dichter Walt Whitman en wat zijn denken over de persoon, de samenleving en de kosmos voor de onze tijd kan betekenen.</a>
-</div>
+<div class="delink listing-description"><a href="./posts/27-11-25_Een_paar_richtlijnen_voor_de_toekomst/Richtlijnenvoordetoekomst.html" class="no-external">
+<p>In <em>De kracht van gras</em> bespreekt de filosoof Jan-Hendrik Bakker de dichtbundel <em>Grasbladen</em> van 19e eeuwse Amerikaanse dichter Walt Whitman en wat zijn denken over de persoon, de samenleving en de kosmos voor de onze tijd kan betekenen.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/27-11-25_Een_paar_richtlijnen_voor_de_toekomst/Richtlijnenvoordetoekomst.html" class="no-external">
@@ -601,27 +597,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="12" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1730242800000" data-listing-file-modified-sort="1748349816838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1634">
-<div class="thumbnail">
-<p><a href="./posts/26-10-30_De_goede_samenleving/Degoedesamenleving.html" class="no-external"></a></p><a href="./posts/26-10-30_De_goede_samenleving/Degoedesamenleving.html" class="no-external">
-<p><img loading="lazy" src="./posts/26-10-30_De_goede_samenleving/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/26-10-30_De_goede_samenleving/Degoedesamenleving.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="13" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1730242800000" data-listing-file-modified-sort="1748349816838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1634">
+<div class="thumbnail"><a href="./posts/26-10-30_De_goede_samenleving/Degoedesamenleving.html" class="no-external">
+
+<img loading="lazy" src="./posts/26-10-30_De_goede_samenleving/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/26-10-30_De_goede_samenleving/Degoedesamenleving.html" class="no-external">De goede samenleving</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/26-10-30_De_goede_samenleving/Degoedesamenleving.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">
-Onderwijs
+
+<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">Onderwijs</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/26-10-30_De_goede_samenleving/Degoedesamenleving.html" class="no-external">Joseph Stiglitz bekritiseert in zijn <em>The Road to Freedom. Economics and the Good Society</em> het neoliberalisme, zet daar zijn waardevolle economie tegenover en laat zien hoe hij tegen vrijheid, de goede samenleving en economie aankijkt en hoe de weg ernaartoe eruit ziet.</a>
-</div>
+<div class="delink listing-description"><a href="./posts/26-10-30_De_goede_samenleving/Degoedesamenleving.html" class="no-external">
+<p>Joseph Stiglitz bekritiseert in zijn <em>The Road to Freedom. Economics and the Good Society</em> het neoliberalisme, zet daar zijn waardevolle economie tegenover en laat zien hoe hij tegen vrijheid, de goede samenleving en economie aankijkt en hoe de weg ernaartoe eruit ziet.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/26-10-30_De_goede_samenleving/Degoedesamenleving.html" class="no-external">
@@ -634,27 +627,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="13" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1727301600000" data-listing-file-modified-sort="1748349816838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1557">
-<div class="thumbnail">
-<p><a href="./posts/25-09-26_De_wereld_waarin_we_leven/Dewereldwaarinweleven.html" class="no-external"></a></p><a href="./posts/25-09-26_De_wereld_waarin_we_leven/Dewereldwaarinweleven.html" class="no-external">
-<p><img loading="lazy" src="./posts/25-09-26_De_wereld_waarin_we_leven/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/25-09-26_De_wereld_waarin_we_leven/Dewereldwaarinweleven.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="14" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1727301600000" data-listing-file-modified-sort="1748349816838" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1557">
+<div class="thumbnail"><a href="./posts/25-09-26_De_wereld_waarin_we_leven/Dewereldwaarinweleven.html" class="no-external">
+
+<img loading="lazy" src="./posts/25-09-26_De_wereld_waarin_we_leven/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/25-09-26_De_wereld_waarin_we_leven/Dewereldwaarinweleven.html" class="no-external">De wereld waarin we leven</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/25-09-26_De_wereld_waarin_we_leven/Dewereldwaarinweleven.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">
-Democratie
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">Democratie</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/25-09-26_De_wereld_waarin_we_leven/Dewereldwaarinweleven.html" class="no-external">In haar nieuwe boek <em>Authocracy, INC</em> waarschuwt de Pools/Amerikaanse historica/journaliste Anne Applebaum de democratische en vrije wereld voor de kracht van de opkomende autocratieën in de wereld. Ze laat in dit boek zien hoe het autocratische geloof er is gekomen en hoe het zichzelf in stand houdt. Ze is ervan overtuigd dat ze een ondermijnende kracht hebben op de democratische waarden in die landen en op deze waarden in andere landen in de wereld. Maar, vraagt zij zich af, wat betekent dit en wat moeten wij doen?</a>
-</div>
+<div class="delink listing-description"><a href="./posts/25-09-26_De_wereld_waarin_we_leven/Dewereldwaarinweleven.html" class="no-external">
+<p>In haar nieuwe boek <em>Authocracy, INC</em> waarschuwt de Pools/Amerikaanse historica/journaliste Anne Applebaum de democratische en vrije wereld voor de kracht van de opkomende autocratieën in de wereld. Ze laat in dit boek zien hoe het autocratische geloof er is gekomen en hoe het zichzelf in stand houdt. Ze is ervan overtuigd dat ze een ondermijnende kracht hebben op de democratische waarden in die landen en op deze waarden in andere landen in de wereld. Maar, vraagt zij zich af, wat betekent dit en wat moeten wij doen?</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/25-09-26_De_wereld_waarin_we_leven/Dewereldwaarinweleven.html" class="no-external">
@@ -667,27 +657,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="14" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1724450400000" data-listing-file-modified-sort="1748349816837" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1709">
-<div class="thumbnail">
-<p><a href="./posts/24_08_24_Hoop_en_optimisme_cultiveren/Hoopenoptimismecultiveren.html" class="no-external"></a></p><a href="./posts/24_08_24_Hoop_en_optimisme_cultiveren/Hoopenoptimismecultiveren.html" class="no-external">
-<p><img loading="lazy" src="./posts/24_08_24_Hoop_en_optimisme_cultiveren/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/24_08_24_Hoop_en_optimisme_cultiveren/Hoopenoptimismecultiveren.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="15" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1724450400000" data-listing-file-modified-sort="1748349816837" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1709">
+<div class="thumbnail"><a href="./posts/24_08_24_Hoop_en_optimisme_cultiveren/Hoopenoptimismecultiveren.html" class="no-external">
+
+<img loading="lazy" src="./posts/24_08_24_Hoop_en_optimisme_cultiveren/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/24_08_24_Hoop_en_optimisme_cultiveren/Hoopenoptimismecultiveren.html" class="no-external">Hoop en optimisme cultiveren</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/24_08_24_Hoop_en_optimisme_cultiveren/Hoopenoptimismecultiveren.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">
-Onderwijs
+
+<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">Onderwijs</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/24_08_24_Hoop_en_optimisme_cultiveren/Hoopenoptimismecultiveren.html" class="no-external">In <em>Medemenselijk opvoeden</em> vat Micha de Winter zijn pedagogische ideeën samen, kijkt hij om zich heen wat er op het gebied van opvoeding, onderwijs en vorming gebeurt, laat hij zien waaraan hijzelf gewerkt heeft, waar hij niets en waar hij juist wel veel mee op heeft. In dat nieuwe boek laat hij zien hoe je jonge mensen kunt voorbereiden op het leven in de moderne, democratische samenleving en wat daarvoor nodig is. Micha de Winter is daarover uitgesproken: medemenselijk opvoeding is essentieel voor een moderne democratische samenleving en daarvoor is er een samenlevingspedagogiek nodig, die hoop geeft en aan het vermogen van jongeren werkt om een actieve rol in de samenleving te spelen.</a>
-</div>
+<div class="delink listing-description"><a href="./posts/24_08_24_Hoop_en_optimisme_cultiveren/Hoopenoptimismecultiveren.html" class="no-external">
+<p>In <em>Medemenselijk opvoeden</em> vat Micha de Winter zijn pedagogische ideeën samen, kijkt hij om zich heen wat er op het gebied van opvoeding, onderwijs en vorming gebeurt, laat hij zien waaraan hijzelf gewerkt heeft, waar hij niets en waar hij juist wel veel mee op heeft. In dat nieuwe boek laat hij zien hoe je jonge mensen kunt voorbereiden op het leven in de moderne, democratische samenleving en wat daarvoor nodig is. Micha de Winter is daarover uitgesproken: medemenselijk opvoeding is essentieel voor een moderne democratische samenleving en daarvoor is er een samenlevingspedagogiek nodig, die hoop geeft en aan het vermogen van jongeren werkt om een actieve rol in de samenleving te spelen.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/24_08_24_Hoop_en_optimisme_cultiveren/Hoopenoptimismecultiveren.html" class="no-external">
@@ -700,27 +687,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="15" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1722117600000" data-listing-file-modified-sort="1748349816837" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1721">
-<div class="thumbnail">
-<p><a href="./posts/23_07_28_Kants_timmerwerk/Kantstimmerwerk.html" class="no-external"></a></p><a href="./posts/23_07_28_Kants_timmerwerk/Kantstimmerwerk.html" class="no-external">
-<p><img loading="lazy" src="./posts/23_07_28_Kants_timmerwerk/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/23_07_28_Kants_timmerwerk/Kantstimmerwerk.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="16" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1722117600000" data-listing-file-modified-sort="1748349816837" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1721">
+<div class="thumbnail"><a href="./posts/23_07_28_Kants_timmerwerk/Kantstimmerwerk.html" class="no-external">
+
+<img loading="lazy" src="./posts/23_07_28_Kants_timmerwerk/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/23_07_28_Kants_timmerwerk/Kantstimmerwerk.html" class="no-external">Kants timmerkwerk</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/23_07_28_Kants_timmerwerk/Kantstimmerwerk.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">
-Democratie
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">Democratie</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/23_07_28_Kants_timmerwerk/Kantstimmerwerk.html" class="no-external">Immanuel Kant is de belangrijkste filosoof van de moderne tijd. Marcus Willashek schreef met <em>Kant. De revolutie van het denken</em> een toegankelijke inleiding over hem. In dertig hoofdstuk en vijf delen laat hij ons kennismaken met verschillende aspecten van zijn denken en bovenal zelf daarover nadenken. Hij maakt heel duidelijk waarom zijn denken voor onze tijd nog zo van belang is </a>
-</div>
+<div class="delink listing-description"><a href="./posts/23_07_28_Kants_timmerwerk/Kantstimmerwerk.html" class="no-external">
+<p>Immanuel Kant is de belangrijkste filosoof van de moderne tijd. Marcus Willashek schreef met <em>Kant. De revolutie van het denken</em> een toegankelijke inleiding over hem. In dertig hoofdstuk en vijf delen laat hij ons kennismaken met verschillende aspecten van zijn denken en bovenal zelf daarover nadenken. Hij maakt heel duidelijk waarom zijn denken voor onze tijd nog zo van belang is</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/23_07_28_Kants_timmerwerk/Kantstimmerwerk.html" class="no-external">
@@ -733,27 +717,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="16" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1716847200000" data-listing-file-modified-sort="1748349816836" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1829">
-<div class="thumbnail">
-<p><a href="./posts/22-06-28_de_wereld_tegemoet_met_verwondering/Dewereldtegemoetmetverwondering.html" class="no-external"></a></p><a href="./posts/22-06-28_de_wereld_tegemoet_met_verwondering/Dewereldtegemoetmetverwondering.html" class="no-external">
-<p><img loading="lazy" src="./posts/22-06-28_de_wereld_tegemoet_met_verwondering/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/22-06-28_de_wereld_tegemoet_met_verwondering/Dewereldtegemoetmetverwondering.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="17" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1716847200000" data-listing-file-modified-sort="1748349816836" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1829">
+<div class="thumbnail"><a href="./posts/22-06-28_de_wereld_tegemoet_met_verwondering/Dewereldtegemoetmetverwondering.html" class="no-external">
+
+<img loading="lazy" src="./posts/22-06-28_de_wereld_tegemoet_met_verwondering/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/22-06-28_de_wereld_tegemoet_met_verwondering/Dewereldtegemoetmetverwondering.html" class="no-external">De wereld tegemoet met verwondering</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/22-06-28_de_wereld_tegemoet_met_verwondering/Dewereldtegemoetmetverwondering.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">
-Onderwijs
+
+<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">Onderwijs</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/22-06-28_de_wereld_tegemoet_met_verwondering/Dewereldtegemoetmetverwondering.html" class="no-external">Over John Dewey is veel geschreven. De mooie en uitgebreide biografie van Martin Jay <em>The Education of John Dewey. A biography</em> kwam al enige jaren geleden uit en verscheen recent in een nieuwe uitgave. Jay deelt Dewey’s leven en werk in drie fasen op: Emergentie (1859-1893) is de periode waarin hij zijn stem vindt, Ervaring (1894-1916) is de periode waarin hij zijn stem laat horen en Engagement (1917-1952) is periode waarin hij gehoord wordt. Misschien is het niet de beste biografie over hem, maar het boek geeft wel een heel duidelijk en samenhangend portret van deze grote Amerikaanse filosoof, die het denken over onderwijs en democratie verandert. </a>
-</div>
+<div class="delink listing-description"><a href="./posts/22-06-28_de_wereld_tegemoet_met_verwondering/Dewereldtegemoetmetverwondering.html" class="no-external">
+<p>Over John Dewey is veel geschreven. De mooie en uitgebreide biografie van Martin Jay <em>The Education of John Dewey. A biography</em> kwam al enige jaren geleden uit en verscheen recent in een nieuwe uitgave. Jay deelt Dewey’s leven en werk in drie fasen op: Emergentie (1859-1893) is de periode waarin hij zijn stem vindt, Ervaring (1894-1916) is de periode waarin hij zijn stem laat horen en Engagement (1917-1952) is periode waarin hij gehoord wordt. Misschien is het niet de beste biografie over hem, maar het boek geeft wel een heel duidelijk en samenhangend portret van deze grote Amerikaanse filosoof, die het denken over onderwijs en democratie verandert.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/22-06-28_de_wereld_tegemoet_met_verwondering/Dewereldtegemoetmetverwondering.html" class="no-external">
@@ -766,27 +747,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="17" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1716588000000" data-listing-file-modified-sort="1748349816836" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1557">
-<div class="thumbnail">
-<p><a href="./posts/21-05-25_Liefde_voor_de_mensheid/Liefdevoordemensheid.html" class="no-external"></a></p><a href="./posts/21-05-25_Liefde_voor_de_mensheid/Liefdevoordemensheid.html" class="no-external">
-<p><img loading="lazy" src="./posts/21-05-25_Liefde_voor_de_mensheid/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/21-05-25_Liefde_voor_de_mensheid/Liefdevoordemensheid.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="18" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1716588000000" data-listing-file-modified-sort="1748349816836" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1557">
+<div class="thumbnail"><a href="./posts/21-05-25_Liefde_voor_de_mensheid/Liefdevoordemensheid.html" class="no-external">
+
+<img loading="lazy" src="./posts/21-05-25_Liefde_voor_de_mensheid/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/21-05-25_Liefde_voor_de_mensheid/Liefdevoordemensheid.html" class="no-external">De liefde voor de mensheid</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/21-05-25_Liefde_voor_de_mensheid/Liefdevoordemensheid.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">
-Democratie
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">Democratie</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/21-05-25_Liefde_voor_de_mensheid/Liefdevoordemensheid.html" class="no-external">Het verlichte universalisme heeft zijn kracht en inspiratie verloren en niemand lijkt er nog in te geloven. Maar is er nog iets van die kracht te redden? Omri Boehm denkt van wel en schreef ter verdediging van dat universalisme het prachtige <em>Radikaler Universalismus. Jenseits von Identität</em>.</a>
-</div>
+<div class="delink listing-description"><a href="./posts/21-05-25_Liefde_voor_de_mensheid/Liefdevoordemensheid.html" class="no-external">
+<p>Het verlichte universalisme heeft zijn kracht en inspiratie verloren en niemand lijkt er nog in te geloven. Maar is er nog iets van die kracht te redden? Omri Boehm denkt van wel en schreef ter verdediging van dat universalisme het prachtige <em>Radikaler Universalismus. Jenseits von Identität</em>.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/21-05-25_Liefde_voor_de_mensheid/Liefdevoordemensheid.html" class="no-external">
@@ -799,27 +777,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="18" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1714428000000" data-listing-file-modified-sort="1748349816836" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1686">
-<div class="thumbnail">
-<p><a href="./posts/20_04_30_De_natuur_van_de_mens/Denatuurvandemens.html" class="no-external"></a></p><a href="./posts/20_04_30_De_natuur_van_de_mens/Denatuurvandemens.html" class="no-external">
-<p><img loading="lazy" src="./posts/20_04_30_De_natuur_van_de_mens/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/20_04_30_De_natuur_van_de_mens/Denatuurvandemens.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="19" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1714428000000" data-listing-file-modified-sort="1748349816836" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1686">
+<div class="thumbnail"><a href="./posts/20_04_30_De_natuur_van_de_mens/Denatuurvandemens.html" class="no-external">
+
+<img loading="lazy" src="./posts/20_04_30_De_natuur_van_de_mens/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/20_04_30_De_natuur_van_de_mens/Denatuurvandemens.html" class="no-external">De natuur van de mens</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/20_04_30_De_natuur_van_de_mens/Denatuurvandemens.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">
-Onderwijs
+
+<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">Onderwijs</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/20_04_30_De_natuur_van_de_mens/Denatuurvandemens.html" class="no-external">Barend van Heusden schreef <em>Theoretische cultuurwetenschap. Een inleiding</em> waarin hij antwoord geeft op de vraag wat cultuur is, hoe het in elkaar zit, uit welke elementen het bestaat en hoe die elementen zich ten opzichte van elkaar verhouden. Zo’n inleiding op cultuurwetenschap is er volgens hem helemaal niet. Dat is een gemis; want als er niet zo’n theoretische basis is, is er ook geen gemeenschappelijke taal en dan wordt het wel heel moeilijk om overeind te blijven in de samenleving, de wetenschap en het onderwijs.</a>
-</div>
+<div class="delink listing-description"><a href="./posts/20_04_30_De_natuur_van_de_mens/Denatuurvandemens.html" class="no-external">
+<p>Barend van Heusden schreef <em>Theoretische cultuurwetenschap. Een inleiding</em> waarin hij antwoord geeft op de vraag wat cultuur is, hoe het in elkaar zit, uit welke elementen het bestaat en hoe die elementen zich ten opzichte van elkaar verhouden. Zo’n inleiding op cultuurwetenschap is er volgens hem helemaal niet. Dat is een gemis; want als er niet zo’n theoretische basis is, is er ook geen gemeenschappelijke taal en dan wordt het wel heel moeilijk om overeind te blijven in de samenleving, de wetenschap en het onderwijs.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/20_04_30_De_natuur_van_de_mens/Denatuurvandemens.html" class="no-external">
@@ -832,27 +807,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="19" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1711666800000" data-listing-file-modified-sort="1748349816834" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1607">
-<div class="thumbnail">
-<p><a href="./posts/19_03_29_Een_verruimde_mentaliteit/Eenverruimdementaliteit.html" class="no-external"></a></p><a href="./posts/19_03_29_Een_verruimde_mentaliteit/Eenverruimdementaliteit.html" class="no-external">
-<p><img loading="lazy" src="./posts/19_03_29_Een_verruimde_mentaliteit/Screenshot1.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/19_03_29_Een_verruimde_mentaliteit/Eenverruimdementaliteit.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="20" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1711666800000" data-listing-file-modified-sort="1748349816834" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1607">
+<div class="thumbnail"><a href="./posts/19_03_29_Een_verruimde_mentaliteit/Eenverruimdementaliteit.html" class="no-external">
+
+<img loading="lazy" src="./posts/19_03_29_Een_verruimde_mentaliteit/Screenshot1.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/19_03_29_Een_verruimde_mentaliteit/Eenverruimdementaliteit.html" class="no-external">Een verruimde mentaliteit</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/19_03_29_Een_verruimde_mentaliteit/Eenverruimdementaliteit.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">
-Democratie
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">Democratie</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/19_03_29_Een_verruimde_mentaliteit/Eenverruimdementaliteit.html" class="no-external"><em>We Are Free to Change the World. Hannah Ahrendt’s Lessons in Love &amp; Disobedience</em> is een nieuwe en eigenwijze biografie over Hannah Ahrendt van Lyndsey Stonebridge. Het gaat in op een aantal centrale filosofische en politieke thema’s waar Hannah Arendt in haar leven mee wordt geconfronteerd en waarover ze schrijft. Stonebridge is met Ahrendt in gesprek en trekt het verhaal op bepaalde momenten naar het heden toe. Het boek behoort tot een van de beste boeken over Hannah Ahrendt.</a>
-</div>
+<div class="delink listing-description"><a href="./posts/19_03_29_Een_verruimde_mentaliteit/Eenverruimdementaliteit.html" class="no-external">
+<p><em>We Are Free to Change the World. Hannah Ahrendt’s Lessons in Love &amp; Disobedience</em> is een nieuwe en eigenwijze biografie over Hannah Ahrendt van Lyndsey Stonebridge. Het gaat in op een aantal centrale filosofische en politieke thema’s waar Hannah Arendt in haar leven mee wordt geconfronteerd en waarover ze schrijft. Stonebridge is met Ahrendt in gesprek en trekt het verhaal op bepaalde momenten naar het heden toe. Het boek behoort tot een van de beste boeken over Hannah Ahrendt.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/19_03_29_Een_verruimde_mentaliteit/Eenverruimdementaliteit.html" class="no-external">
@@ -865,27 +837,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="20" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1708383600000" data-listing-file-modified-sort="1748349816834" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1565">
-<div class="thumbnail">
-<p><a href="./posts/18_02_29_Baasloos_leven/Baasloosleven.html" class="no-external"></a></p><a href="./posts/18_02_29_Baasloos_leven/Baasloosleven.html" class="no-external">
-<p><img loading="lazy" src="./posts/18_02_29_Baasloos_leven/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/18_02_29_Baasloos_leven/Baasloosleven.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="21" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1708383600000" data-listing-file-modified-sort="1748349816834" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1565">
+<div class="thumbnail"><a href="./posts/18_02_29_Baasloos_leven/Baasloosleven.html" class="no-external">
+
+<img loading="lazy" src="./posts/18_02_29_Baasloos_leven/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/18_02_29_Baasloos_leven/Baasloosleven.html" class="no-external">Baasloos leven</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/18_02_29_Baasloos_leven/Baasloosleven.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">
-Onderwijs
+
+<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">Onderwijs</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/18_02_29_Baasloos_leven/Baasloosleven.html" class="no-external">In <em>Civic Bargain. How Democracy Survives</em> beschrijven Manville en Ober democratie als een systeem zonder baas en waarbij we het met elkaar regelen. Om te overleven zijn enkele voorwaarden noodzakelijk. Aan de hand van vier studies (Athene, Rome, Groot-Brittannië en Amerika) laten ze dat zien. Wanneer deze voorwaarden goed aanwezig zijn, zullen democratieën floreren. Wanneer ze losgelaten worden zullen</a>
-</div>
+<div class="delink listing-description"><a href="./posts/18_02_29_Baasloos_leven/Baasloosleven.html" class="no-external">
+<p>In <em>Civic Bargain. How Democracy Survives</em> beschrijven Manville en Ober democratie als een systeem zonder baas en waarbij we het met elkaar regelen. Om te overleven zijn enkele voorwaarden noodzakelijk. Aan de hand van vier studies (Athene, Rome, Groot-Brittannië en Amerika) laten ze dat zien. Wanneer deze voorwaarden goed aanwezig zijn, zullen democratieën floreren. Wanneer ze losgelaten worden zullen</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/18_02_29_Baasloos_leven/Baasloosleven.html" class="no-external">
@@ -898,27 +867,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="21" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1706396400000" data-listing-file-modified-sort="1748349816834" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1651">
-<div class="thumbnail">
-<p><a href="./posts/17_01_28_Europa/Europe.html" class="no-external"></a></p><a href="./posts/17_01_28_Europa/Europe.html" class="no-external">
-<p><img loading="lazy" src="./posts/17_01_28_Europa/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/17_01_28_Europa/Europe.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="22" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1706396400000" data-listing-file-modified-sort="1748349816834" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1651">
+<div class="thumbnail"><a href="./posts/17_01_28_Europa/Europe.html" class="no-external">
+
+<img loading="lazy" src="./posts/17_01_28_Europa/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/17_01_28_Europa/Europe.html" class="no-external">Europa, mijn Europa</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/17_01_28_Europa/Europe.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">
-Democratie
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">Democratie</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/17_01_28_Europa/Europe.html" class="no-external">Met <em>Homelands. A Personal History of Europe</em> schreef Timothy Garton Ash zijn liefdesverklaring aan Europa. Het is een persoonlijke geschiedenis geworden waarin TGA zijn stukken, notities, foto’s, gespreksverslagen, boeken en die van anderen er nog eens op heeft nageslagen om daar zijn verhaal van zijn tijd van te maken. Het is een liefdesverklaring geworden waar heel veel van is te leren, hoog nodig is deze tijd van dreiging en onduidelijkheid</a>
-</div>
+<div class="delink listing-description"><a href="./posts/17_01_28_Europa/Europe.html" class="no-external">
+<p>Met <em>Homelands. A Personal History of Europe</em> schreef Timothy Garton Ash zijn liefdesverklaring aan Europa. Het is een persoonlijke geschiedenis geworden waarin TGA zijn stukken, notities, foto’s, gespreksverslagen, boeken en die van anderen er nog eens op heeft nageslagen om daar zijn verhaal van zijn tijd van te maken. Het is een liefdesverklaring geworden waar heel veel van is te leren, hoog nodig is deze tijd van dreiging en onduidelijkheid</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/17_01_28_Europa/Europe.html" class="no-external">
@@ -931,27 +897,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="22" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1703718000000" data-listing-file-modified-sort="1748349816833" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2363">
-<div class="thumbnail">
-<p><a href="./posts/16_12_28_Wortels_van_het_neoliberalisme/Neoliberalisme.html" class="no-external"></a></p><a href="./posts/16_12_28_Wortels_van_het_neoliberalisme/Neoliberalisme.html" class="no-external">
-<p><img loading="lazy" src="./posts/16_12_28_Wortels_van_het_neoliberalisme/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/16_12_28_Wortels_van_het_neoliberalisme/Neoliberalisme.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="23" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1703718000000" data-listing-file-modified-sort="1748349816833" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2363">
+<div class="thumbnail"><a href="./posts/16_12_28_Wortels_van_het_neoliberalisme/Neoliberalisme.html" class="no-external">
+
+<img loading="lazy" src="./posts/16_12_28_Wortels_van_het_neoliberalisme/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/16_12_28_Wortels_van_het_neoliberalisme/Neoliberalisme.html" class="no-external">Wortels van het neoliberalisme</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/16_12_28_Wortels_van_het_neoliberalisme/Neoliberalisme.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">
-Democratie
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">Democratie</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/16_12_28_Wortels_van_het_neoliberalisme/Neoliberalisme.html" class="no-external">Het neoliberalisme is sinds de tachtiger jaren het overheersende maatschappelijke perstief dat het doen en laten in democratische landen bepaalt. In twee boeken wordt de geschiedenis van dat perspectief beschreven. Gary Gerstler beschrijft de Amerikaanse geschiedenis in <em>The Rise and Fall of the Neoliberal Order</em>, en Melink en Oudenampsen doen dat voor Nederand in hun boek <em>Neoliberalisme. Een Nederlandse geschiedenis</em>.</a>
-</div>
+<div class="delink listing-description"><a href="./posts/16_12_28_Wortels_van_het_neoliberalisme/Neoliberalisme.html" class="no-external">
+<p>Het neoliberalisme is sinds de tachtiger jaren het overheersende maatschappelijke perstief dat het doen en laten in democratische landen bepaalt. In twee boeken wordt de geschiedenis van dat perspectief beschreven. Gary Gerstler beschrijft de Amerikaanse geschiedenis in <em>The Rise and Fall of the Neoliberal Order</em>, en Melink en Oudenampsen doen dat voor Nederand in hun boek <em>Neoliberalisme. Een Nederlandse geschiedenis</em>.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/16_12_28_Wortels_van_het_neoliberalisme/Neoliberalisme.html" class="no-external">
@@ -964,27 +927,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="23" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1701298800000" data-listing-file-modified-sort="1748349816832" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1662">
-<div class="thumbnail">
-<p><a href="./posts/15_11_30_Ingevaren_verleden/Ingevaren_verleden.html" class="no-external"></a></p><a href="./posts/15_11_30_Ingevaren_verleden/Ingevaren_verleden.html" class="no-external">
-<p><img loading="lazy" src="./posts/15_11_30_Ingevaren_verleden/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/15_11_30_Ingevaren_verleden/Ingevaren_verleden.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="24" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1701298800000" data-listing-file-modified-sort="1748349816832" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1662">
+<div class="thumbnail"><a href="./posts/15_11_30_Ingevaren_verleden/Ingevaren_verleden.html" class="no-external">
+
+<img loading="lazy" src="./posts/15_11_30_Ingevaren_verleden/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/15_11_30_Ingevaren_verleden/Ingevaren_verleden.html" class="no-external">Ingevaren verleden</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/15_11_30_Ingevaren_verleden/Ingevaren_verleden.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">
-Onderwijs
+
+<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">Onderwijs</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/15_11_30_Ingevaren_verleden/Ingevaren_verleden.html" class="no-external"><em>The 1619 Project</em> is een mozaïek van verhalen, argumenten, feiten, verbeeldingen, perspectieven en historische momenten. Het contrasteert de Amerikaanse idealen van gelijkheid, vrijheid en zelfbeschikking met de zwarte werkelijkheid van slavernij, geweld en onderdrukking. Het jaar 1619 verdient een plaats in het historisch besef van Amerika. <em>The 1619 Project</em> raakt de maatschappelijke achilleshiel van het land.</a>
-</div>
+<div class="delink listing-description"><a href="./posts/15_11_30_Ingevaren_verleden/Ingevaren_verleden.html" class="no-external">
+<p><em>The 1619 Project</em> is een mozaïek van verhalen, argumenten, feiten, verbeeldingen, perspectieven en historische momenten. Het contrasteert de Amerikaanse idealen van gelijkheid, vrijheid en zelfbeschikking met de zwarte werkelijkheid van slavernij, geweld en onderdrukking. Het jaar 1619 verdient een plaats in het historisch besef van Amerika. <em>The 1619 Project</em> raakt de maatschappelijke achilleshiel van het land.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/15_11_30_Ingevaren_verleden/Ingevaren_verleden.html" class="no-external">
@@ -997,27 +957,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="24" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1698620400000" data-listing-file-modified-sort="1748349816832" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1620">
-<div class="thumbnail">
-<p><a href="./posts/14_10_30_In_eigen_handen/In_eigen_handen.html" class="no-external"></a></p><a href="./posts/14_10_30_In_eigen_handen/In_eigen_handen.html" class="no-external">
-<p><img loading="lazy" src="./posts/14_10_30_In_eigen_handen/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/14_10_30_In_eigen_handen/In_eigen_handen.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="25" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1698620400000" data-listing-file-modified-sort="1748349816832" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1620">
+<div class="thumbnail"><a href="./posts/14_10_30_In_eigen_handen/In_eigen_handen.html" class="no-external">
+
+<img loading="lazy" data-src="./posts/14_10_30_In_eigen_handen/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/14_10_30_In_eigen_handen/In_eigen_handen.html" class="no-external">In eigen handen</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/14_10_30_In_eigen_handen/In_eigen_handen.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">
-Democratie
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">Democratie</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/14_10_30_In_eigen_handen/In_eigen_handen.html" class="no-external">In <em>Democracy Awakening</em> beschrijft Heather Cox-Richardson de geschiedenis van huidige crisis in de Amerikaanse democratie en hoe het pad geëffend wordt tot het autoritarisme. Het boek gaat daarbij uitgebreid in op het tijdperk Trump en hoe hij uiteindelijk het autoritarisme de Republikeinse partij binnenbrengt. <em>Democracy Awakening</em> zet belangrijke historische gebeurtenissen van de laatste jaren nog eens op rij en laat zien wat een autoritair bewind betekent. Tot slot gaat het boek in op de geschiedenis van de Amerikaanse democratie zelf vanaf de Onafhankelijkheidsverklaring, over de successen en de vooruitgang, net zo goed als over de aanvallen erop. Democratie vraagt onderhoud, waar ook ter wereld.</a>
-</div>
+<div class="delink listing-description"><a href="./posts/14_10_30_In_eigen_handen/In_eigen_handen.html" class="no-external">
+<p>In <em>Democracy Awakening</em> beschrijft Heather Cox-Richardson de geschiedenis van huidige crisis in de Amerikaanse democratie en hoe het pad geëffend wordt tot het autoritarisme. Het boek gaat daarbij uitgebreid in op het tijdperk Trump en hoe hij uiteindelijk het autoritarisme de Republikeinse partij binnenbrengt. <em>Democracy Awakening</em> zet belangrijke historische gebeurtenissen van de laatste jaren nog eens op rij en laat zien wat een autoritair bewind betekent. Tot slot gaat het boek in op de geschiedenis van de Amerikaanse democratie zelf vanaf de Onafhankelijkheidsverklaring, over de successen en de vooruitgang, net zo goed als over de aanvallen erop. Democratie vraagt onderhoud, waar ook ter wereld.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/14_10_30_In_eigen_handen/In_eigen_handen.html" class="no-external">
@@ -1030,27 +987,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="25" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1695852000000" data-listing-file-modified-sort="1748349816831" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1738">
-<div class="thumbnail">
-<p><a href="./posts/13_9_23-Luisteren_leren/Luisteren_leren.html" class="no-external"></a></p><a href="./posts/13_9_23-Luisteren_leren/Luisteren_leren.html" class="no-external">
-<p><img loading="lazy" data-src="./posts/13_9_23-Luisteren_leren/Screenshot1.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/13_9_23-Luisteren_leren/Luisteren_leren.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="26" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1695852000000" data-listing-file-modified-sort="1748349816831" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1738">
+<div class="thumbnail"><a href="./posts/13_9_23-Luisteren_leren/Luisteren_leren.html" class="no-external">
+
+<img loading="lazy" data-src="./posts/13_9_23-Luisteren_leren/Screenshot1.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/13_9_23-Luisteren_leren/Luisteren_leren.html" class="no-external">Luisteren en leren</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/13_9_23-Luisteren_leren/Luisteren_leren.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">
-Onderwijs
+
+<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">Onderwijs</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/13_9_23-Luisteren_leren/Luisteren_leren.html" class="no-external">In Amerika is het klimaat zo veranderd dat er nauwelijks nog normaal met elkaar over onderwijs gediscussieerd kan worden. Mensen staan er recht tegenover elkaar en er wordt niet meer naar elkaar geluisterd en er wordt niet meer van elkaar geleerd. In *A Search for Common Ground. Conversations About the Toughest Questions in K-12 Education gaan twee onderwijsexperts (Pedro Noguera en Rick Hess) met hele verschillende achtergronden en visies in gesprek met elkaar over belangrijke hedendaagse onderwijsdiscussiepunten. Verschillen worden duidelijk gemaakt en hier en daar groeien ze in het gesprek naar elkaar toe. Over of het gesprek een gezamenlijke ondergrond voor de langere termijn biedt waarnaar ze op zoek zijn, kan sterk worden getwijfeld.</a>
-</div>
+<div class="delink listing-description"><a href="./posts/13_9_23-Luisteren_leren/Luisteren_leren.html" class="no-external">
+<p>In Amerika is het klimaat zo veranderd dat er nauwelijks nog normaal met elkaar over onderwijs gediscussieerd kan worden. Mensen staan er recht tegenover elkaar en er wordt niet meer naar elkaar geluisterd en er wordt niet meer van elkaar geleerd. In *A Search for Common Ground. Conversations About the Toughest Questions in K-12 Education gaan twee onderwijsexperts (Pedro Noguera en Rick Hess) met hele verschillende achtergronden en visies in gesprek met elkaar over belangrijke hedendaagse onderwijsdiscussiepunten. Verschillen worden duidelijk gemaakt en hier en daar groeien ze in het gesprek naar elkaar toe. Over of het gesprek een gezamenlijke ondergrond voor de langere termijn biedt waarnaar ze op zoek zijn, kan sterk worden getwijfeld.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/13_9_23-Luisteren_leren/Luisteren_leren.html" class="no-external">
@@ -1063,27 +1017,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="26" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1692741600000" data-listing-file-modified-sort="1748349816831" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1533">
-<div class="thumbnail">
-<p><a href="./posts/12_8_23_Favoriet_filosoof/Favoriete_filosoof.html" class="no-external"></a></p><a href="./posts/12_8_23_Favoriet_filosoof/Favoriete_filosoof.html" class="no-external">
-<p><img loading="lazy" data-src="./posts/12_8_23_Favoriet_filosoof/Screenshot1.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/12_8_23_Favoriet_filosoof/Favoriete_filosoof.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="27" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1692741600000" data-listing-file-modified-sort="1748349816831" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1533">
+<div class="thumbnail"><a href="./posts/12_8_23_Favoriet_filosoof/Favoriete_filosoof.html" class="no-external">
+
+<img loading="lazy" data-src="./posts/12_8_23_Favoriet_filosoof/Screenshot1.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/12_8_23_Favoriet_filosoof/Favoriete_filosoof.html" class="no-external">Een favoriete filosoof</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/12_8_23_Favoriet_filosoof/Favoriete_filosoof.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">
-Democratie
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">Democratie</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/12_8_23_Favoriet_filosoof/Favoriete_filosoof.html" class="no-external">In het vriendenboek <em>Dedicated to the Life and Work of RICHARD J. BERSTEIN</em> kijken studenten, vrienden, collega’s terug op het leven en werk van Richard J. Bernstein, de bekende Amerikaanse filosoof die een jaar geleden is overleden. Het zijn persoonlijke herinneringen aan Bernstein, het gaat in op zijn inspiratiebronnen en maakt duidelijk waar deze pragmatist voor stond. Het boek laat nog eens zien waarom Richard J. Bernstein zo’n interessante eigentijdse filosoof was en waarom zijn denken van waarde is voor deze moderne tijd</a>
-</div>
+<div class="delink listing-description"><a href="./posts/12_8_23_Favoriet_filosoof/Favoriete_filosoof.html" class="no-external">
+<p>In het vriendenboek <em>Dedicated to the Life and Work of RICHARD J. BERSTEIN</em> kijken studenten, vrienden, collega’s terug op het leven en werk van Richard J. Bernstein, de bekende Amerikaanse filosoof die een jaar geleden is overleden. Het zijn persoonlijke herinneringen aan Bernstein, het gaat in op zijn inspiratiebronnen en maakt duidelijk waar deze pragmatist voor stond. Het boek laat nog eens zien waarom Richard J. Bernstein zo’n interessante eigentijdse filosoof was en waarom zijn denken van waarde is voor deze moderne tijd</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/12_8_23_Favoriet_filosoof/Favoriete_filosoof.html" class="no-external">
@@ -1096,27 +1047,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="27" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1690408800000" data-listing-file-modified-sort="1748349816829" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1492">
-<div class="thumbnail">
-<p><a href="./posts/11_7_23_Possiblist/Possibilist.html" class="no-external"></a></p><a href="./posts/11_7_23_Possiblist/Possibilist.html" class="no-external">
-<p><img loading="lazy" data-src="./posts/11_7_23_Possiblist/Screenshot1.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/11_7_23_Possiblist/Possibilist.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="28" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1690408800000" data-listing-file-modified-sort="1748349816829" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1492">
+<div class="thumbnail"><a href="./posts/11_7_23_Possiblist/Possibilist.html" class="no-external">
+
+<img loading="lazy" data-src="./posts/11_7_23_Possiblist/Screenshot1.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/11_7_23_Possiblist/Possibilist.html" class="no-external">De adem van een possiblist</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/11_7_23_Possiblist/Possibilist.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">
-Onderwijs
+
+<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">Onderwijs</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/11_7_23_Possiblist/Possibilist.html" class="no-external">In <em>Ronduit. Overpeinzingen van een possiblist</em> schetst Carolien Pauwels de werelden waarin zij zich in haar leven heeft bewogen en haar gedachten daarover. Het is een boek over mens worden en krachtige samenlevingen van een kind van de Verlichting, een humanist en possiblist, die denkt dat we de wereld kunnen veranderen en verbeteren.</a>
-</div>
+<div class="delink listing-description"><a href="./posts/11_7_23_Possiblist/Possibilist.html" class="no-external">
+<p>In <em>Ronduit. Overpeinzingen van een possiblist</em> schetst Carolien Pauwels de werelden waarin zij zich in haar leven heeft bewogen en haar gedachten daarover. Het is een boek over mens worden en krachtige samenlevingen van een kind van de Verlichting, een humanist en possiblist, die denkt dat we de wereld kunnen veranderen en verbeteren.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/11_7_23_Possiblist/Possibilist.html" class="no-external">
@@ -1129,27 +1077,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="28" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1687557600000" data-listing-file-modified-sort="1748349816829" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1641">
-<div class="thumbnail">
-<p><a href="./posts/10_6_24_Vrijheid_gelijkheid_broederschap/Vrijheid_gelijkheid_broederschap.html" class="no-external"></a></p><a href="./posts/10_6_24_Vrijheid_gelijkheid_broederschap/Vrijheid_gelijkheid_broederschap.html" class="no-external">
-<p><img loading="lazy" data-src="./posts/10_6_24_Vrijheid_gelijkheid_broederschap/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/10_6_24_Vrijheid_gelijkheid_broederschap/Vrijheid_gelijkheid_broederschap.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="29" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1687557600000" data-listing-file-modified-sort="1748349816829" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1641">
+<div class="thumbnail"><a href="./posts/10_6_24_Vrijheid_gelijkheid_broederschap/Vrijheid_gelijkheid_broederschap.html" class="no-external">
+
+<img loading="lazy" data-src="./posts/10_6_24_Vrijheid_gelijkheid_broederschap/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/10_6_24_Vrijheid_gelijkheid_broederschap/Vrijheid_gelijkheid_broederschap.html" class="no-external">Vrijheid, gelijkheid en broederschap</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/10_6_24_Vrijheid_gelijkheid_broederschap/Vrijheid_gelijkheid_broederschap.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">
-Democratie
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">Democratie</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/10_6_24_Vrijheid_gelijkheid_broederschap/Vrijheid_gelijkheid_broederschap.html" class="no-external">Hoe ziet een betere en eerlijkere samenleving eruit? John Rawls heeft hier een theorie voor ontwikkeld en Daniel Chandler blaast in zijn nieuwe boek Free and Equal. What Would a Fair Society Look Like? hier nieuw leven in. Niet alleen beschrijft hij deze rechtvaardigheidstheorie heel helder, ook laat hij zien wat dit voor ons nu zou kunnen betekenen. Wat dit boek zo sterk maakt is de coherentie en samenhang in denken over wie we zouden kunnen zijn.</a>
-</div>
+<div class="delink listing-description"><a href="./posts/10_6_24_Vrijheid_gelijkheid_broederschap/Vrijheid_gelijkheid_broederschap.html" class="no-external">
+<p>Hoe ziet een betere en eerlijkere samenleving eruit? John Rawls heeft hier een theorie voor ontwikkeld en Daniel Chandler blaast in zijn nieuwe boek Free and Equal. What Would a Fair Society Look Like? hier nieuw leven in. Niet alleen beschrijft hij deze rechtvaardigheidstheorie heel helder, ook laat hij zien wat dit voor ons nu zou kunnen betekenen. Wat dit boek zo sterk maakt is de coherentie en samenhang in denken over wie we zouden kunnen zijn.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/10_6_24_Vrijheid_gelijkheid_broederschap/Vrijheid_gelijkheid_broederschap.html" class="no-external">
@@ -1162,27 +1107,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="29" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1684879200000" data-listing-file-modified-sort="1748349816844" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1154">
-<div class="thumbnail">
-<p><a href="./posts/9_5_24_De_moderne_tijd_van_Bell/DemodernetijdvanDanielBell.html" class="no-external"></a></p><a href="./posts/9_5_24_De_moderne_tijd_van_Bell/DemodernetijdvanDanielBell.html" class="no-external">
-<p><img loading="lazy" data-src="./posts/9_5_24_De_moderne_tijd_van_Bell/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/9_5_24_De_moderne_tijd_van_Bell/DemodernetijdvanDanielBell.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="30" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1684879200000" data-listing-file-modified-sort="1748349816844" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1154">
+<div class="thumbnail"><a href="./posts/9_5_24_De_moderne_tijd_van_Bell/DemodernetijdvanDanielBell.html" class="no-external">
+
+<img loading="lazy" data-src="./posts/9_5_24_De_moderne_tijd_van_Bell/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/9_5_24_De_moderne_tijd_van_Bell/DemodernetijdvanDanielBell.html" class="no-external">De moderne tijd van Daniel Bell</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/9_5_24_De_moderne_tijd_van_Bell/DemodernetijdvanDanielBell.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">
-Democratie
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">Democratie</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/9_5_24_De_moderne_tijd_van_Bell/DemodernetijdvanDanielBell.html" class="no-external">Net zoals Marx, Weber en Durkheim de negentiende eeuw hebben beschreven, heeft Daniel Bell de twintigste eeuw beschreven. Hoe keek hij tegen de moderne tijd aan en wat is de betekenis van zijn werk voor de huidige tijd? Over die vragen was er enkele jaren geleden een congres en daarover stelden Starr en Zelizer het boek <em>Defining the Age. Daniel Bell, His Time and Ours</em> samen. </a>
-</div>
+<div class="delink listing-description"><a href="./posts/9_5_24_De_moderne_tijd_van_Bell/DemodernetijdvanDanielBell.html" class="no-external">
+<p>Net zoals Marx, Weber en Durkheim de negentiende eeuw hebben beschreven, heeft Daniel Bell de twintigste eeuw beschreven. Hoe keek hij tegen de moderne tijd aan en wat is de betekenis van zijn werk voor de huidige tijd? Over die vragen was er enkele jaren geleden een congres en daarover stelden Starr en Zelizer het boek <em>Defining the Age. Daniel Bell, His Time and Ours</em> samen.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/9_5_24_De_moderne_tijd_van_Bell/DemodernetijdvanDanielBell.html" class="no-external">
@@ -1195,27 +1137,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="30" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1682805600000" data-listing-file-modified-sort="1748349816844" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1234">
-<div class="thumbnail">
-<p><a href="./posts/8_4_30_Volhardende_inspanning/Volhardendeinspanning.html" class="no-external"></a></p><a href="./posts/8_4_30_Volhardende_inspanning/Volhardendeinspanning.html" class="no-external">
-<p><img loading="lazy" data-src="./posts/8_4_30_Volhardende_inspanning/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/8_4_30_Volhardende_inspanning/Volhardendeinspanning.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="31" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1682805600000" data-listing-file-modified-sort="1748349816844" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1234">
+<div class="thumbnail"><a href="./posts/8_4_30_Volhardende_inspanning/Volhardendeinspanning.html" class="no-external">
+
+<img loading="lazy" data-src="./posts/8_4_30_Volhardende_inspanning/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/8_4_30_Volhardende_inspanning/Volhardendeinspanning.html" class="no-external">Volhardende inspanning</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/8_4_30_Volhardende_inspanning/Volhardendeinspanning.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">
-Onderwijs
+
+<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">Onderwijs</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/8_4_30_Volhardende_inspanning/Volhardendeinspanning.html" class="no-external">Succesvolle onderwijsvernieuwing vraagt niet om snelle en makkelijke oplossingen van buitenaf. Het vraagt om rustig en stapsgewijs werken vanuit het onderwijs zelf. Wat hebben succesvolle onderwijsvernieuwingen met elkaar gemeen en waar zijn ze op gebaseerd? In Disrupting Disruption. The Steady Work of Transforming Schools beschrijven Kirp e.a. drie succesvolle onderwijsvernieuwingen en geven ze antwoord op deze vragen. </a>
-</div>
+<div class="delink listing-description"><a href="./posts/8_4_30_Volhardende_inspanning/Volhardendeinspanning.html" class="no-external">
+<p>Succesvolle onderwijsvernieuwing vraagt niet om snelle en makkelijke oplossingen van buitenaf. Het vraagt om rustig en stapsgewijs werken vanuit het onderwijs zelf. Wat hebben succesvolle onderwijsvernieuwingen met elkaar gemeen en waar zijn ze op gebaseerd? In Disrupting Disruption. The Steady Work of Transforming Schools beschrijven Kirp e.a. drie succesvolle onderwijsvernieuwingen en geven ze antwoord op deze vragen.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/8_4_30_Volhardende_inspanning/Volhardendeinspanning.html" class="no-external">
@@ -1228,27 +1167,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="31" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1682200800000" data-listing-file-modified-sort="1748349816843" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="931">
-<div class="thumbnail">
-<p><a href="./posts/7_4_23_De_aanval_als_verdediging/De aanval.html" class="no-external"></a></p><a href="./posts/7_4_23_De_aanval_als_verdediging/De aanval.html" class="no-external">
-<p><img loading="lazy" data-src="./posts/7_4_23_De_aanval_als_verdediging/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/7_4_23_De_aanval_als_verdediging/De aanval.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="32" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1682200800000" data-listing-file-modified-sort="1748349816843" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="931">
+<div class="thumbnail"><a href="./posts/7_4_23_De_aanval_als_verdediging/De aanval.html" class="no-external">
+
+<img loading="lazy" data-src="./posts/7_4_23_De_aanval_als_verdediging/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/7_4_23_De_aanval_als_verdediging/De aanval.html" class="no-external">De aanval als verdediging</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/7_4_23_De_aanval_als_verdediging/De aanval.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">
-Democratie
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">Democratie</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/7_4_23_De_aanval_als_verdediging/De aanval.html" class="no-external">Het liberalisme wordt door rechts en links aangevallen. Francis Fukuyama verdedigt het in zijn Liberalism and its disontents. Hij definieert het liberalisme, schetst in het kort de ontwikkeling ervan, laat zien waar hedendaagse ontevredenheid uit bestaat en hoe wij het weer eigentijds kunnen maken. Fukuyama heeft het boek kraakhelder geschreven en kijkt daarbij meer naar de bedreigingen binnen dan buiten de eigen grenzen. </a>
-</div>
+<div class="delink listing-description"><a href="./posts/7_4_23_De_aanval_als_verdediging/De aanval.html" class="no-external">
+<p>Het liberalisme wordt door rechts en links aangevallen. Francis Fukuyama verdedigt het in zijn Liberalism and its disontents. Hij definieert het liberalisme, schetst in het kort de ontwikkeling ervan, laat zien waar hedendaagse ontevredenheid uit bestaat en hoe wij het weer eigentijds kunnen maken. Fukuyama heeft het boek kraakhelder geschreven en kijkt daarbij meer naar de bedreigingen binnen dan buiten de eigen grenzen.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/7_4_23_De_aanval_als_verdediging/De aanval.html" class="no-external">
@@ -1261,27 +1197,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="32" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1679954400000" data-listing-file-modified-sort="1748349816843" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1035">
-<div class="thumbnail">
-<p><a href="./posts/6_3_30_Ongemak/Ongemak.html" class="no-external"></a></p><a href="./posts/6_3_30_Ongemak/Ongemak.html" class="no-external">
-<p><img loading="lazy" data-src="./posts/6_3_30_Ongemak/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/6_3_30_Ongemak/Ongemak.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="33" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1679954400000" data-listing-file-modified-sort="1748349816843" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1035">
+<div class="thumbnail"><a href="./posts/6_3_30_Ongemak/Ongemak.html" class="no-external">
+
+<img loading="lazy" data-src="./posts/6_3_30_Ongemak/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/6_3_30_Ongemak/Ongemak.html" class="no-external">Het ongemak onder de ogen zien</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/6_3_30_Ongemak/Ongemak.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">
-Onderwijs
+
+<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">Onderwijs</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/6_3_30_Ongemak/Ongemak.html" class="no-external">In haar nieuwe boek <em>Onderwijs maakt het verschil-Kansengelijkheid in het Nederlandse onderwijs</em> geeft Louise Elffers antwoorden op enkele vragen die samenhangen met het vraagstuk van ongelijkheid in het onderwijs: hoe werkt kansengelijkheid, hoe kijken we tegen kansengelijkheid aan, hoe gaan we met kansengelijkheid om en wat moeten we aan kansengelijkheid doen? Een leerzame analyse, maar wel één die zich enkel binnen de muren van het onderwijs afspeelt en ons niet laat begrijpen hoe het zover heeft kunnen komen. </a>
-</div>
+<div class="delink listing-description"><a href="./posts/6_3_30_Ongemak/Ongemak.html" class="no-external">
+<p>In haar nieuwe boek <em>Onderwijs maakt het verschil-Kansengelijkheid in het Nederlandse onderwijs</em> geeft Louise Elffers antwoorden op enkele vragen die samenhangen met het vraagstuk van ongelijkheid in het onderwijs: hoe werkt kansengelijkheid, hoe kijken we tegen kansengelijkheid aan, hoe gaan we met kansengelijkheid om en wat moeten we aan kansengelijkheid doen? Een leerzame analyse, maar wel één die zich enkel binnen de muren van het onderwijs afspeelt en ons niet laat begrijpen hoe het zover heeft kunnen komen.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/6_3_30_Ongemak/Ongemak.html" class="no-external">
@@ -1294,27 +1227,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="33" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1679526000000" data-listing-file-modified-sort="1748349816842" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1058">
-<div class="thumbnail">
-<p><a href="./posts/5_3_23_De_lange_mars/Delangemarsnaarmeergelijkheid.html" class="no-external"></a></p><a href="./posts/5_3_23_De_lange_mars/Delangemarsnaarmeergelijkheid.html" class="no-external">
-<p><img loading="lazy" data-src="./posts/5_3_23_De_lange_mars/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/5_3_23_De_lange_mars/Delangemarsnaarmeergelijkheid.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="34" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1679526000000" data-listing-file-modified-sort="1748349816842" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1058">
+<div class="thumbnail"><a href="./posts/5_3_23_De_lange_mars/Delangemarsnaarmeergelijkheid.html" class="no-external">
+
+<img loading="lazy" data-src="./posts/5_3_23_De_lange_mars/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/5_3_23_De_lange_mars/Delangemarsnaarmeergelijkheid.html" class="no-external">De lange mars naar meer gelijkheid</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/5_3_23_De_lange_mars/Delangemarsnaarmeergelijkheid.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">
-Democratie
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">Democratie</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/5_3_23_De_lange_mars/Delangemarsnaarmeergelijkheid.html" class="no-external">In <em>A Brief History of Equality</em> vat Thomas Piketty zijn ideeën over gelijkheid samen. In het compacte en heldere boek vertelt hij door wie hij in zijn werk is beïnvloed en waar zijn gedachten op zijn gebaseerd. Hij gaat in op de geschiedenis van gelijkheid en ongelijkheid en definieert waar het omgaat in zijn participerend socialisme dat hij bepleit. Indrukwekkend en stimulerend is het werk van Piketty altijd, maar waarom worden deze ideeën niet breed opgepakt? Het kapitalisme zit ingenieus in elkaar. </a>
-</div>
+<div class="delink listing-description"><a href="./posts/5_3_23_De_lange_mars/Delangemarsnaarmeergelijkheid.html" class="no-external">
+<p>In <em>A Brief History of Equality</em> vat Thomas Piketty zijn ideeën over gelijkheid samen. In het compacte en heldere boek vertelt hij door wie hij in zijn werk is beïnvloed en waar zijn gedachten op zijn gebaseerd. Hij gaat in op de geschiedenis van gelijkheid en ongelijkheid en definieert waar het omgaat in zijn participerend socialisme dat hij bepleit. Indrukwekkend en stimulerend is het werk van Piketty altijd, maar waarom worden deze ideeën niet breed opgepakt? Het kapitalisme zit ingenieus in elkaar.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/5_3_23_De_lange_mars/Delangemarsnaarmeergelijkheid.html" class="no-external">
@@ -1327,27 +1257,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="34" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1677538800000" data-listing-file-modified-sort="1748349816842" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="954">
-<div class="thumbnail">
-<p><a href="./posts/4_2_23_Ervaringen_journalist/Waarheidvertrouwenobjectiviteit.html" class="no-external"></a></p><a href="./posts/4_2_23_Ervaringen_journalist/Waarheidvertrouwenobjectiviteit.html" class="no-external">
-<p><img loading="lazy" data-src="./posts/4_2_23_Ervaringen_journalist/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/4_2_23_Ervaringen_journalist/Waarheidvertrouwenobjectiviteit.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="35" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1677538800000" data-listing-file-modified-sort="1748349816842" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="954">
+<div class="thumbnail"><a href="./posts/4_2_23_Ervaringen_journalist/Waarheidvertrouwenobjectiviteit.html" class="no-external">
+
+<img loading="lazy" data-src="./posts/4_2_23_Ervaringen_journalist/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/4_2_23_Ervaringen_journalist/Waarheidvertrouwenobjectiviteit.html" class="no-external">Waarheid, vertrouwen en objectiviteit</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/4_2_23_Ervaringen_journalist/Waarheidvertrouwenobjectiviteit.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">
-Onderwijs
+
+<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">Onderwijs</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/4_2_23_Ervaringen_journalist/Waarheidvertrouwenobjectiviteit.html" class="no-external">Margaret Sullivan is een bekende Amerikaanse journalist die onder andere werkte voor de Buffulo News, New York Times en de Washington Post. Zij heeft haar ervaringen in haar journalistieke memoires beschreven met veel aandacht voor wat er de laatste jaren is gebeurd is, hoe de journalistiek onder vuur kwam te liggen en het vertrouwen verloor. In <em>Newsroom confidential</em> beschrijft ze haar zorgen, de lessen die zij geleerd heeft en verdedigt ze het belang van onafhankelijke en onpartijdige journalistiek voor moderne democratie. </a>
-</div>
+<div class="delink listing-description"><a href="./posts/4_2_23_Ervaringen_journalist/Waarheidvertrouwenobjectiviteit.html" class="no-external">
+<p>Margaret Sullivan is een bekende Amerikaanse journalist die onder andere werkte voor de Buffulo News, New York Times en de Washington Post. Zij heeft haar ervaringen in haar journalistieke memoires beschreven met veel aandacht voor wat er de laatste jaren is gebeurd is, hoe de journalistiek onder vuur kwam te liggen en het vertrouwen verloor. In <em>Newsroom confidential</em> beschrijft ze haar zorgen, de lessen die zij geleerd heeft en verdedigt ze het belang van onafhankelijke en onpartijdige journalistiek voor moderne democratie.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/4_2_23_Ervaringen_journalist/Waarheidvertrouwenobjectiviteit.html" class="no-external">
@@ -1360,27 +1287,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="35" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1676415600000" data-listing-file-modified-sort="1748349816841" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1237">
-<div class="thumbnail">
-<p><a href="./posts/3_2_23_Mr_America/Mr.America.html" class="no-external"></a></p><a href="./posts/3_2_23_Mr_America/Mr.America.html" class="no-external">
-<p><img loading="lazy" data-src="./posts/3_2_23_Mr_America/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/3_2_23_Mr_America/Mr.America.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="36" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1676415600000" data-listing-file-modified-sort="1748349816841" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1237">
+<div class="thumbnail"><a href="./posts/3_2_23_Mr_America/Mr.America.html" class="no-external">
+
+<img loading="lazy" data-src="./posts/3_2_23_Mr_America/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/3_2_23_Mr_America/Mr.America.html" class="no-external">Mr.&nbsp;America</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/3_2_23_Mr_America/Mr.America.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">
-Democratie
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">Democratie</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/3_2_23_Mr_America/Mr.America.html" class="no-external">Olivier Zunz schreef een biografie over het publieke leven van Alexis de Toqueville: <em>The Man who Understood Democracy. The Life of Alexis de Toqueville</em>. Zijn reis door America inspireerde Tocqueville om kritisch te kijken naar de vastgeroeste aristocratische samenleving waar rechten bij geboorte worden meegegeven en op te komen voor een samenleving waarin mensen met elkaar en op eigen kracht verder komen. Toqueville liet ons in de negentiende eeuw op een andere manier tegen de samenleving en democratie aankijken. Maar hoe? </a>
-</div>
+<div class="delink listing-description"><a href="./posts/3_2_23_Mr_America/Mr.America.html" class="no-external">
+<p>Olivier Zunz schreef een biografie over het publieke leven van Alexis de Toqueville: <em>The Man who Understood Democracy. The Life of Alexis de Toqueville</em>. Zijn reis door America inspireerde Tocqueville om kritisch te kijken naar de vastgeroeste aristocratische samenleving waar rechten bij geboorte worden meegegeven en op te komen voor een samenleving waarin mensen met elkaar en op eigen kracht verder komen. Toqueville liet ons in de negentiende eeuw op een andere manier tegen de samenleving en democratie aankijken. Maar hoe?</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/3_2_23_Mr_America/Mr.America.html" class="no-external">
@@ -1393,27 +1317,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="36" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1675119600000" data-listing-file-modified-sort="1748349816839" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1063">
-<div class="thumbnail">
-<p><a href="./posts/2_1_23_Hé_jij/Hejij.html" class="no-external"></a></p><a href="./posts/2_1_23_Hé_jij/Hejij.html" class="no-external">
-<p><img loading="lazy" data-src="./posts/2_1_23_Hé_jij/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/2_1_23_Hé_jij/Hejij.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="37" data-categories="T25kZXJ3aWpz" data-listing-date-sort="1675119600000" data-listing-file-modified-sort="1748349816839" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1063">
+<div class="thumbnail"><a href="./posts/2_1_23_Hé_jij/Hejij.html" class="no-external">
+
+<img loading="lazy" data-src="./posts/2_1_23_Hé_jij/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/2_1_23_Hé_jij/Hejij.html" class="no-external">Hé jij, kijk daar eens</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/2_1_23_Hé_jij/Hejij.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">
-Onderwijs
+
+<div class="listing-category" onclick="window.quartoListingCategory('T25kZXJ3aWpz'); return false;">Onderwijs</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/2_1_23_Hé_jij/Hejij.html" class="no-external">Gert Biesta is een Nederlandse onderwijsfilosoof die in Schotland, Ierland en Nederland werkt met een herkenbare stem in onderwijsdiscussies vandaag de dag. Onderwijs is voor hem veel meer dan kennis en vaardigheden overbrengen. Het is de plaats waar leerlingen zichzelf ontdekken en zich weten te verhouden tot de sociale en natuurlijke wereld. Op school ontmoeten leerlingen zichzelf in relatie tot de wereld. Biesta stelt wereldgericht onderwijs voor, maar waar gaat het dan in zijn wereldgericht onderwijs om, wat betekent dat voor het onderwijs, waar richt Biesta zich precies op en hoe kan zijn onderwijs vorm krijgen? In zijn nieuwe boek <em>Wereldgericht onderwijs</em> geeft hij antwoorden op deze vragen. </a>
-</div>
+<div class="delink listing-description"><a href="./posts/2_1_23_Hé_jij/Hejij.html" class="no-external">
+<p>Gert Biesta is een Nederlandse onderwijsfilosoof die in Schotland, Ierland en Nederland werkt met een herkenbare stem in onderwijsdiscussies vandaag de dag. Onderwijs is voor hem veel meer dan kennis en vaardigheden overbrengen. Het is de plaats waar leerlingen zichzelf ontdekken en zich weten te verhouden tot de sociale en natuurlijke wereld. Op school ontmoeten leerlingen zichzelf in relatie tot de wereld. Biesta stelt wereldgericht onderwijs voor, maar waar gaat het dan in zijn wereldgericht onderwijs om, wat betekent dat voor het onderwijs, waar richt Biesta zich precies op en hoe kan zijn onderwijs vorm krijgen? In zijn nieuwe boek <em>Wereldgericht onderwijs</em> geeft hij antwoorden op deze vragen.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/2_1_23_Hé_jij/Hejij.html" class="no-external">
@@ -1426,27 +1347,24 @@ Harrie Jonkman
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="37" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1673737200000" data-listing-file-modified-sort="1748349816835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1098">
-<div class="thumbnail">
-<p><a href="./posts/1_1_23_Wij_toekomst/Wijtoekomst.html" class="no-external"></a></p><a href="./posts/1_1_23_Wij_toekomst/Wijtoekomst.html" class="no-external">
-<p><img loading="lazy" data-src="./posts/1_1_23_Wij_toekomst/Screenshot.PNG" class="thumbnail-image"></p>
-</a><p><a href="./posts/1_1_23_Wij_toekomst/Wijtoekomst.html" class="no-external"></a></p>
-</div>
+<div class="quarto-post image-right" data-index="38" data-categories="RGVtb2NyYXRpZQ==" data-listing-date-sort="1673737200000" data-listing-file-modified-sort="1748349816835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1098">
+<div class="thumbnail"><a href="./posts/1_1_23_Wij_toekomst/Wijtoekomst.html" class="no-external">
+
+<img loading="lazy" data-src="./posts/1_1_23_Wij_toekomst/Screenshot.PNG" class="thumbnail-image">
+
+</a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
 <a href="./posts/1_1_23_Wij_toekomst/Wijtoekomst.html" class="no-external">Wij, de toekomst</a>
 </h3>
-<div class="listing-subtitle">
-<a href="./posts/1_1_23_Wij_toekomst/Wijtoekomst.html" class="no-external"></a>
-</div>
 <div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">
-Democratie
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGVtb2NyYXRpZQ=='); return false;">Democratie</div>
+
 </div>
-</div>
-<div class="listing-description">
-<a href="./posts/1_1_23_Wij_toekomst/Wijtoekomst.html" class="no-external">Hoe maken we ons verantwoordelijk voor de toekomst? Uiteindelijk hebben we nog maar een korte tijd geleefd, de meeste mensen moeten nog komen en naar hen hebben we verplichtingen. Met <em>What we owe the future</em> rekt William MacAskill ons maatschappelijk en toekomstperspectief op, laat hij zien hoe we de koers kunnen verleggen, welke problemen we serieus moeten nemen en wat we kunnen doen. Bij het schrijven over zoveel onzekerheid kan het niet anders dat je soms uit de bocht vliegt. Maar, het is zo goed dat hij ons buiten onszelf om laat nadenken. </a>
-</div>
+<div class="delink listing-description"><a href="./posts/1_1_23_Wij_toekomst/Wijtoekomst.html" class="no-external">
+<p>Hoe maken we ons verantwoordelijk voor de toekomst? Uiteindelijk hebben we nog maar een korte tijd geleefd, de meeste mensen moeten nog komen en naar hen hebben we verplichtingen. Met <em>What we owe the future</em> rekt William MacAskill ons maatschappelijk en toekomstperspectief op, laat hij zien hoe we de koers kunnen verleggen, welke problemen we serieus moeten nemen en wat we kunnen doen. Bij het schrijven over zoveel onzekerheid kan het niet anders dat je soms uit de bocht vliegt. Maar, het is zo goed dat hij ons buiten onszelf om laat nadenken.</p>
+</a></div>
 </div>
 <div class="metadata">
 <a href="./posts/1_1_23_Wij_toekomst/Wijtoekomst.html" class="no-external">
@@ -1460,244 +1378,249 @@ Harrie Jonkman
 </div>
 </div>
 </div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
+<div class="listing-no-matching d-none">No matching items</div>
 <nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
   <ul class="pagination"></ul>
 </nav>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
-window.document.addEventListener("DOMContentLoaded", function (event) {
-  const toggleBodyColorMode = (bsSheetEl) => {
-    const mode = bsSheetEl.getAttribute("data-mode");
-    const bodyEl = window.document.querySelector("body");
-    if (mode === "dark") {
-      bodyEl.classList.add("quarto-dark");
-      bodyEl.classList.remove("quarto-light");
-    } else {
-      bodyEl.classList.add("quarto-light");
-      bodyEl.classList.remove("quarto-dark");
-    }
-  }
-  const toggleBodyColorPrimary = () => {
-    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
-    if (bsSheetEl) {
-      toggleBodyColorMode(bsSheetEl);
-    }
-  }
-  toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
-  const isCodeAnnotation = (el) => {
-    for (const clz of el.classList) {
-      if (clz.startsWith('code-annotation-')) {                     
-        return true;
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
       }
+      return false;
     }
-    return false;
-  }
-  const onCopySuccess = function(e) {
-    // button target
-    const button = e.trigger;
-    // don't keep focus
-    button.blur();
-    // flash "checked"
-    button.classList.add('code-copy-button-checked');
-    var currentTitle = button.getAttribute("title");
-    button.setAttribute("title", "Copied!");
-    let tooltip;
-    if (window.bootstrap) {
-      button.setAttribute("data-bs-toggle", "tooltip");
-      button.setAttribute("data-bs-placement", "left");
-      button.setAttribute("data-bs-title", "Copied!");
-      tooltip = new bootstrap.Tooltip(button, 
-        { trigger: "manual", 
-          customClass: "code-copy-button-tooltip",
-          offset: [0, -8]});
-      tooltip.show();    
-    }
-    setTimeout(function() {
-      if (tooltip) {
-        tooltip.hide();
-        button.removeAttribute("data-bs-title");
-        button.removeAttribute("data-bs-toggle");
-        button.removeAttribute("data-bs-placement");
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
       }
-      button.setAttribute("title", currentTitle);
-      button.classList.remove('code-copy-button-checked');
-    }, 1000);
-    // clear code selection
-    e.clearSelection();
-  }
-  const getTextToCopy = function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
       for (const childEl of codeEl.children) {
         if (isCodeAnnotation(childEl)) {
           childEl.remove();
         }
       }
       return codeEl.innerText;
-  }
-  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
-    text: getTextToCopy
-  });
-  clipboard.on('success', onCopySuccess);
-  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
-      text: getTextToCopy,
-      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
     });
-    clipboardModal.on('success', onCopySuccess);
-  }
-    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
-    var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
-    var isInternal = (href) => {
-        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
     }
-    // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
-    for (var i=0; i<links.length; i++) {
-      const link = links[i];
-      if (!isInternal(link.href)) {
-        // undo the damage that might have been done by quarto-nav.js in the case of
-        // links that we want to consider external
-        if (link.dataset.originalHref !== undefined) {
-          link.href = link.dataset.originalHref;
-        }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
-    }
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
-    const config = {
-      allowHTML: true,
-      maxWidth: 500,
-      delay: 100,
-      arrow: false,
-      appendTo: function(el) {
-          return el.parentElement;
-      },
-      interactive: true,
-      interactiveBorder: 10,
-      theme: 'quarto',
-      placement: 'bottom-start',
-    };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
-    window.tippy(el, config); 
-  }
-  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
-  for (var i=0; i<noterefs.length; i++) {
-    const ref = noterefs[i];
-    tippyHover(ref, function() {
-      // use id or data attribute instead here
-      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
-      try { href = new URL(href).hash; } catch {}
-      const id = href.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      if (note) {
-        return note.innerHTML;
-      } else {
-        return "";
-      }
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
           }
         }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
         }
-        return container.innerHTML
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
       } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
         if (window.Quarto?.typesetMath) {
           window.Quarto.typesetMath(note);
         }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
       }
     }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
           }
         } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
           .then(res => res.text())
           .then(html => {
             const parser = new DOMParser();
             const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
+            const note = htmlDoc.querySelector('main.content');
             if (note !== null) {
-              const html = processXRef(id, note);
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
               instance.setContent(html);
             } 
           }).finally(() => {
@@ -1705,185 +1628,161 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
-    });
-  }
-      let selectedAnnoteEl;
-      const selectorForAnnotation = ( cell, annotation) => {
-        let cellAttr = 'data-code-cell="' + cell + '"';
-        let lineAttr = 'data-code-annotation="' +  annotation + '"';
-        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
-        return selector;
-      }
-      const selectCodeLines = (annoteEl) => {
-        const doc = window.document;
-        const targetCell = annoteEl.getAttribute("data-target-cell");
-        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
-        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
-        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
-        const lineIds = lines.map((line) => {
-          return targetCell + "-" + line;
-        })
-        let top = null;
-        let height = null;
-        let parent = null;
-        if (lineIds.length > 0) {
-            //compute the position of the single el (top and bottom and make a div)
-            const el = window.document.getElementById(lineIds[0]);
-            top = el.offsetTop;
-            height = el.offsetHeight;
-            parent = el.parentElement.parentElement;
-          if (lineIds.length > 1) {
-            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
-            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
-            height = bottom - top;
-          }
-          if (top !== null && height !== null && parent !== null) {
-            // cook up a div (if necessary) and position it 
-            let div = window.document.getElementById("code-annotation-line-highlight");
-            if (div === null) {
-              div = window.document.createElement("div");
-              div.setAttribute("id", "code-annotation-line-highlight");
-              div.style.position = 'absolute';
-              parent.appendChild(div);
-            }
-            div.style.top = top - 2 + "px";
-            div.style.height = height + 4 + "px";
-            div.style.left = 0;
-            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
-            if (gutterDiv === null) {
-              gutterDiv = window.document.createElement("div");
-              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
-              gutterDiv.style.position = 'absolute';
-              const codeCell = window.document.getElementById(targetCell);
-              const gutter = codeCell.querySelector('.code-annotation-gutter');
-              gutter.appendChild(gutterDiv);
-            }
-            gutterDiv.style.top = top - 2 + "px";
-            gutterDiv.style.height = height + 4 + "px";
-          }
-          selectedAnnoteEl = annoteEl;
-        }
-      };
-      const unselectCodeLines = () => {
-        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
-        elementsIds.forEach((elId) => {
-          const div = window.document.getElementById(elId);
-          if (div) {
-            div.remove();
-          }
-        });
-        selectedAnnoteEl = undefined;
-      };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
-      // Attach click handler to the DT
-      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
-      for (const annoteDlNode of annoteDls) {
-        annoteDlNode.addEventListener('click', (event) => {
-          const clickedEl = event.target;
-          if (clickedEl !== selectedAnnoteEl) {
-            unselectCodeLines();
-            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
-            if (activeEl) {
-              activeEl.classList.remove('code-annotation-active');
-            }
-            selectCodeLines(clickedEl);
-            clickedEl.classList.add('code-annotation-active');
-          } else {
-            // Unselect the line
-            unselectCodeLines();
-            clickedEl.classList.remove('code-annotation-active');
-          }
-        });
-      }
-  const findCites = (el) => {
-    const parentEl = el.parentElement;
-    if (parentEl) {
-      const cites = parentEl.dataset.cites;
-      if (cites) {
-        return {
-          el,
-          cites: cites.split(' ')
-        };
-      } else {
-        return findCites(el.parentElement)
-      }
-    } else {
-      return undefined;
-    }
-  };
-  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
-  for (var i=0; i<bibliorefs.length; i++) {
-    const ref = bibliorefs[i];
-    const citeInfo = findCites(ref);
-    if (citeInfo) {
-      tippyHover(citeInfo.el, function() {
-        var popup = window.document.createElement('div');
-        citeInfo.cites.forEach(function(cite) {
-          var citeDiv = window.document.createElement('div');
-          citeDiv.classList.add('hanging-indent');
-          citeDiv.classList.add('csl-entry');
-          var biblioDiv = window.document.getElementById('ref-' + cite);
-          if (biblioDiv) {
-            citeDiv.innerHTML = biblioDiv.innerHTML;
-          }
-          popup.appendChild(citeDiv);
-        });
-        return popup.innerHTML;
+      }, function(instance) {
       });
     }
-  }
-});
-</script>
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
 </div> <!-- /content -->
 
 

@@ -1,6 +1,6 @@
 ---
 title: "Een rustige baken in een trubulente tijd"
-description: " " 
+description: "Een instelling van het hoger onderwijs leiden vraagt nogal wat in deze turbulente tijd. *Peril and Promise. College Leadership in Turbulent Times* van Beverly Daniel Tatum schets een beeld van modern leiderschap, met welke problemen je als leider (president, decaan, afdelingshoofd of in welke leidinggevende positie dan ook) te maken hebt en waar je in die positie zorg voor moet dragen. Haar boek is een rustig baken in een turbulente tijd." 
 author: "Harrie Jonkman"
 date: "2026-02-27"
 categories: [Onderwijs]

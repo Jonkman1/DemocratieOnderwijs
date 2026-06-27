@@ -1,7 +1,7 @@
 ---
 title: "De Grote Gemeenschap"
 description: "Het prachtige kinderboek *Winnie-the-Poeh* van A.A. Milne kwam honderd jaar geleden uit. Om dat te vieren werd er recent een speciale editie van uitgebracht. *Winnie-the-Poeh* is een tijdloos verhaal over vriendschap, verbeelding, humor en levenswijsheid en een grote ode aan de Grote Gemeenschap. Dit verhaal kan niet genoeg gelezen en voorgelezen worden in deze tijd van haat, rancune en angst." 
-date: "2026-05-26"
+date: "2026-06-27"
 categories: [Onderwijs]
 image: "Screenshot.PNG"
 ---

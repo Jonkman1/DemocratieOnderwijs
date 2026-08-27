@@ -1,5 +1,5 @@
 ---
-title: "Strijd om ideeën"
+title: "De strijd om ideeën"
 description: "*Furious Minds: The Making of the MAGA New Right* van Laura Field gaat over de intellectuele ideeënwereld van MAGA Nieuw Rechts in Amerika. Welke personen en figuren zitter er achter en hoe zit hun denken in elkaar. Het is belangrijk om deze wereld te leren kennen want als Trump ooit verdwijnt zal die wereld nog niet zo snel verdwijnen."   
 date: "2026-08-27"
 categories: [Democratie]

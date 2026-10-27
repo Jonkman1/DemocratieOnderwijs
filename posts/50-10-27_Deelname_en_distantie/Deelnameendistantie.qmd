@@ -1,7 +1,7 @@
 ---
 title: "Deelname en distantie"
 description: " Over Habermas' filosofisch werk is al veel geschreven, over zijn rol als publiek intellectueel veel minder. Peter J. Verovšek schreef er een boek over: *Jürgen Habermas: Public Intellectual and Engaged Critical Theorist*. Door het boek krijg je een aanvullend inzicht in Habermas’ werk. Tegelijk is het een heel mooi boek over de geschiedenis van Duitland (en Europa) na de Tweede Wereldoorlog.  " 
-date: "2026-10-26"
+date: "2026-10-27"
 categories: [Democratie]
 image: "Screenshot.PNG"
 ---
